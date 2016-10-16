@@ -205,7 +205,7 @@ private class FontLoader {
         var fontURL: URL
         if identifier?.hasPrefix("org.cocoapods") == true {
             // If this framework is added using CocoaPods, resources is placed under a subdirectory
-            fontURL = bundle.url(forResource: name, withExtension: "otf", subdirectory: "FontAwesome.swift.bundle")!
+            fontURL = bundle.url(forResource: name, withExtension: "otf", subdirectory: "FontAwesomeKit.Swift.bundle")!
         } else {
             fontURL = bundle.url(forResource: name, withExtension: "otf")!
         }
