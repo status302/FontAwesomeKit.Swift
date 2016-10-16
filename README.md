@@ -1,6 +1,6 @@
 FontAwesomeKit.Swift
 ========
-😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍 
+😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍     
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/LICENSE)
 [![](https://img.shields.io/badge/Pod-v0.1.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
