@@ -1,0 +1,10 @@
+framework module FontAwesomeKit {
+  umbrella header "FontAwesomeKit.h"
+
+  export *
+  module * { export * }
+}
+
+module FontAwesomeKit.Swift {
+    header "FontAwesomeKit-Swift.h"
+}
