@@ -4,9 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FontAwesome.ttf</key>
+		<key>FontAwesome.otf</key>
 		<data>
-		kIgUOxmXl3myEWzvOLZh9y2YLhk=
+		GyLxf9w4Bw3lDm0as6Mtpxqi2Bk=
 		</data>
 		<key>Headers/FontAwesomeKit-Swift.h</key>
 		<data>
@@ -14,27 +14,19 @@
 		</data>
 		<key>Headers/FontAwesomeKit.h</key>
 		<data>
-		j96xFEcayLxLwIIWLvpxd9v80D4=
+		JkuIbojFjKi+kiFafXIRa1BsJas=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xDX7H7tK2yMuoysHcvptsbgAIno=
-		</data>
-		<key>Modules/FontAwesomeKit.swiftmodule/i386.swiftdoc</key>
-		<data>
-		TWj4ABX7V3y17128bqA99X+bKFw=
-		</data>
-		<key>Modules/FontAwesomeKit.swiftmodule/i386.swiftmodule</key>
-		<data>
-		k3DjVwmQU/iSDeBwmsbFl4V49ac=
+		4zahhnuqdi1YLykyUBAc3eGpJdw=
 		</data>
 		<key>Modules/FontAwesomeKit.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		KpJROlFYohYJfw3grRilHwE8RjU=
+		U6gUShoHg4hZje7ZXjUGNyCofzo=
 		</data>
 		<key>Modules/FontAwesomeKit.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Ul1+s+gIHZcEGYGIqfk1RlsqHbk=
+		Ozi5EA7oS6BCw3eX/SEA9m1Ot+E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,15 +35,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FontAwesome.ttf</key>
+		<key>FontAwesome.otf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kIgUOxmXl3myEWzvOLZh9y2YLhk=
+			GyLxf9w4Bw3lDm0as6Mtpxqi2Bk=
 			</data>
 			<key>hash2</key>
 			<data>
-			nlQKCHkkpuZHkBSdc1ysAiZA5Ppr/2vWX16fQVKb8LM=
+			7NcvMZEKjuJyb9F71Fm+JvIwd58/PtX2nr+CnksS52g=
 			</data>
 		</dict>
 		<key>Headers/FontAwesomeKit-Swift.h</key>
@@ -69,55 +61,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			j96xFEcayLxLwIIWLvpxd9v80D4=
+			JkuIbojFjKi+kiFafXIRa1BsJas=
 			</data>
 			<key>hash2</key>
 			<data>
-			J8sJc3kSnJcIp8f0Y2O8vGlyI+2IzUXDzzqRnKgbc04=
-			</data>
-		</dict>
-		<key>Modules/FontAwesomeKit.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TWj4ABX7V3y17128bqA99X+bKFw=
-			</data>
-			<key>hash2</key>
-			<data>
-			PpzkJGkdv38McE9PY84t/Tn49dvFzR8we2bQsrTBBY8=
-			</data>
-		</dict>
-		<key>Modules/FontAwesomeKit.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k3DjVwmQU/iSDeBwmsbFl4V49ac=
-			</data>
-			<key>hash2</key>
-			<data>
-			D6obBxIArsQJKoLYr20DFbq97dqli+W6+8leHbmLk28=
+			8S6oSJx8llKh/fb4618dL67tlUW6mJg2nk8Hi+78IYs=
 			</data>
 		</dict>
 		<key>Modules/FontAwesomeKit.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KpJROlFYohYJfw3grRilHwE8RjU=
+			U6gUShoHg4hZje7ZXjUGNyCofzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			968clJ+JVodVPELOdIFpFioAi/7ijgCI48Ep8oRPn4w=
+			VnA28Wu6F77DmPgRdMZWTBSVnaRhZJgfweagrrgPZQE=
 			</data>
 		</dict>
 		<key>Modules/FontAwesomeKit.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ul1+s+gIHZcEGYGIqfk1RlsqHbk=
+			Ozi5EA7oS6BCw3eX/SEA9m1Ot+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			28pWfOlpX44TsP3EtNx/5XlxE2RtZa5c7VraNgsVlfk=
+			b9v54DMI0rcBaQ1GTfVN6Z2b7o5hvVxwHxs0ImNYlDQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

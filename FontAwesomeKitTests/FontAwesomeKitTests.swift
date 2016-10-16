@@ -43,6 +43,10 @@ class FontAwesomeKitTests: XCTestCase {
         let adjustStr = String.fontAwesome(awesomeType: .fa_adjust)
         XCTAssertEqual(str, adjustStr)
     }
+    func testBarItem() {
+    let barItem = UIBarButtonItem(awesomeType: .fa_android, size: 100, style: .plain, target: nil, action: nil)
+        XCTAssert(barItem.image != nil, "barItem image should not be nil.")
+    }
 
     override func setUp() {
         super.setUp()

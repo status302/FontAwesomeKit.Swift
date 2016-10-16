@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		860652D41DB362A30022B074 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860652D01DB362870022B074 /* FontAwesomeKit.framework */; };
-		860652D51DB362A30022B074 /* FontAwesomeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 860652D01DB362870022B074 /* FontAwesomeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8670F2D41DB3BB7D000CDD11 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8670F2D31DB3BB7D000CDD11 /* FontAwesomeKit.framework */; };
+		8670F2D51DB3BB80000CDD11 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8670F2D31DB3BB7D000CDD11 /* FontAwesomeKit.framework */; };
+		8670F2D61DB3BB80000CDD11 /* FontAwesomeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8670F2D31DB3BB7D000CDD11 /* FontAwesomeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		867C53011DB29BF800BEB615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53001DB29BF800BEB615 /* AppDelegate.swift */; };
 		867C53031DB29BF800BEB615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53021DB29BF800BEB615 /* ViewController.swift */; };
 		867C53061DB29BF800BEB615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867C53041DB29BF800BEB615 /* Main.storyboard */; };
@@ -42,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				860652D51DB362A30022B074 /* FontAwesomeKit.framework in Embed Frameworks */,
+				8670F2D61DB3BB80000CDD11 /* FontAwesomeKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		860652D01DB362870022B074 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FontAwesomeKit.framework; sourceTree = "<group>"; };
+		8670F2D31DB3BB7D000CDD11 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FontAwesomeKit.framework; sourceTree = "<group>"; };
 		867C52FD1DB29BF800BEB615 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867C53001DB29BF800BEB615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		867C53021DB29BF800BEB615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860652D41DB362A30022B074 /* FontAwesomeKit.framework in Frameworks */,
+				8670F2D51DB3BB80000CDD11 /* FontAwesomeKit.framework in Frameworks */,
+				8670F2D41DB3BB7D000CDD11 /* FontAwesomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 		867C52F41DB29BF800BEB615 = {
 			isa = PBXGroup;
 			children = (
+				8670F2D31DB3BB7D000CDD11 /* FontAwesomeKit.framework */,
 				867C52FF1DB29BF800BEB615 /* Example */,
 				867C53141DB29BF800BEB615 /* ExampleTests */,
 				867C531F1DB29BF800BEB615 /* ExampleUITests */,
@@ -115,7 +118,6 @@
 		867C52FF1DB29BF800BEB615 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				860652D01DB362870022B074 /* FontAwesomeKit.framework */,
 				867C53001DB29BF800BEB615 /* AppDelegate.swift */,
 				867C53021DB29BF800BEB615 /* ViewController.swift */,
 				867C53041DB29BF800BEB615 /* Main.storyboard */,

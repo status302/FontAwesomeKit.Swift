@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8670F2D21DB3BB43000CDD11 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8670F2D11DB3BB43000CDD11 /* FontAwesome.otf */; };
 		868F6E761DB2842A0077D257 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */; };
 		868F6E7B1DB2842A0077D257 /* FontAwesomeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E7A1DB2842A0077D257 /* FontAwesomeKitTests.swift */; };
 		868F6E7D1DB2842A0077D257 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		868F6E881DB284E00077D257 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868F6E861DB284E00077D257 /* FontAwesome.ttf */; };
 		868F6E891DB284E00077D257 /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E871DB284E00077D257 /* FontAwesomeKit.swift */; };
 		868F6E8B1DB285220077D257 /* FontAwesomeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */; };
 /* End PBXBuildFile section */
@@ -26,13 +26,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8670F2D11DB3BB43000CDD11 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
 		868F6E701DB2842A0077D257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		868F6E751DB2842A0077D257 /* FontAwesomeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F6E7A1DB2842A0077D257 /* FontAwesomeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKitTests.swift; sourceTree = "<group>"; };
 		868F6E7C1DB2842A0077D257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		868F6E861DB284E00077D257 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		868F6E871DB284E00077D257 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
 		868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		868F6E6E1DB2842A0077D257 /* FontAwesomeKit */ = {
 			isa = PBXGroup;
 			children = (
-				868F6E861DB284E00077D257 /* FontAwesome.ttf */,
+				8670F2D11DB3BB43000CDD11 /* FontAwesome.otf */,
 				868F6E871DB284E00077D257 /* FontAwesomeKit.swift */,
 				868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */,
 				868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */,
@@ -190,7 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868F6E881DB284E00077D257 /* FontAwesome.ttf in Resources */,
+				8670F2D21DB3BB43000CDD11 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +342,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = FontAwesomeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -365,6 +366,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = FontAwesomeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -395,6 +397,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 57EP4P69NV;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = FontAwesomeKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiuncheng.FontAwesomeKitTests;

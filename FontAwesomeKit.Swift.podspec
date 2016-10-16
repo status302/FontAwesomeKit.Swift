@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "FontAwesomeKit.Swift"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "A better choice for iOS developer to use FontAwesome Icon with UI."
   s.description      = <<-DESC
                         A better choice for iOS developer to use FontAwesome Icon with UI. Now it's up to you.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/qiuncheng/FontAwesomeKit.Swift.git", :tag => s.version }
 
   s.source_files  = 'FontAwesomeKit/*.{swift, h}'
-  s.resource_bundle = { 'FontAwesomeKit.Swift' => 'FontAwesomeKit/*.ttf' }
+  s.resource_bundle = { 'FontAwesomeKit.Swift' => 'FontAwesomeKit/*.otf' }
   s.requires_arc = true
   s.frameworks = 'UIKit'
 
