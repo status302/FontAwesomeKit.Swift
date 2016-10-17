@@ -9,7 +9,8 @@ FontAwesomeKit.Swift
 [![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 Support
 ========
-Swift 3.0 & iOS 8.0+
+Swift 3.0 & iOS 8.0+   
+FontAwesome 4.6.3
 
 Installation
 ========
@@ -21,6 +22,7 @@ Installation
 #### Manually
 1. [Download](https://github.com/qiuncheng/FontAwesomeKit.Swift/archive/master.zip) the full file.
 2. Drag the FontAwesomeKit folder to your project.
+
 Example
 ========
 
@@ -70,6 +72,12 @@ LICENCE
 Under [MIT License](https://github.com/qiuncheng/FontAwesomeKit.Swift/blob/master/LICENSE)
 
 Copyright (c) 2016 [QiunCheng](http://qiuncheng.com).
+
+Thanks
+========
+1. [The FontAwesome Unicode list.](http://fontawesome.io/cheatsheet/) From FontAwesome.io.
+2. [The Lastest(version4.6.3) FontAwesome.otf bundle](http://fontawesome.io/assets/font-awesome-4.6.3.zip)
+
 About me
 ========
 A student in Xidian university.  
