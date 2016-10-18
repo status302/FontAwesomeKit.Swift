@@ -9,6 +9,12 @@ unicodeList = ['xf26e', 'xf042', 'xf170', 'xf037', 'xf039', 'xf036', 'xf038', 'x
 for i in range(0, 730):
 	print 'case' + ' ' + nameList[i].replace(" ", "").replace("-", "_") + ' = ' + '0' + unicodeList[i]
 	
+for j in range(0, 100):
+	print  'FontAwesomeType.' + nameList[j].replace(" ", "").replace("-", "_") + ',' + '\n'
+	
+for m in range(0, 100):
+	print '\".' + nameList[m].replace(" ", "").replace("-", "_") + '\",'  + '\n'
+	
 	
 	
 # I do it manually	firstly

@@ -2,11 +2,14 @@ FontAwesomeKit.Swift
 ========
 😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍     
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/LICENSE)
-[![](https://img.shields.io/badge/Pod-v0.1.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
+[![](https://img.shields.io/badge/Pod-v0.1.1-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
+
+![FontAwesome.otf 4.6.3](http://7xk67j.com1.z0.glb.clouddn.com/FontAwesomeKitExample.png)
+
 Support
 ========
 Swift 3.0 & iOS 8.0+   
@@ -17,7 +20,7 @@ Installation
 #### CocoaPods
 1. add `pod 'FontAwesomeKit.Swift'` to your Podfile.
 2. Run `pod install` OR `pod update`.
-3. `import FontAwesomeKit.Swift`
+3. `import FontAwesomeKit_Swift`
 
 #### Manually
 1. [Download](https://github.com/qiuncheng/FontAwesomeKit.Swift/archive/master.zip) the full file.
@@ -71,11 +74,11 @@ LICENCE
 ========
 Under [MIT License](https://github.com/qiuncheng/FontAwesomeKit.Swift/blob/master/LICENSE)
 
-Copyright (c) 2016 [QiunCheng](http://qiuncheng.com).
+Copyright (c) 2016 [QiunCheng](http://qiuncheng.com). All rights reserved.
 
 Thanks
 ========
-1. [The FontAwesome Unicode list.](http://fontawesome.io/cheatsheet/) From FontAwesome.io.
+1. [The FontAwesome Unicode list.](http://fontawesome.io/cheatsheet/) From fontawesome.io
 2. [The Lastest(version4.6.3) FontAwesome.otf bundle](http://fontawesome.io/assets/font-awesome-4.6.3.zip)
 
 About me
