@@ -15,7 +15,7 @@ FontAwesome 4.6.3
 Installation
 ========
 #### CocoaPods
-1. add `pod FontAwesomeKit.Swift` to your Podfile.
+1. add `pod 'FontAwesomeKit.Swift'` to your Podfile.
 2. Run `pod install` OR `pod update`.
 3. `import FontAwesomeKit.Swift`
 
