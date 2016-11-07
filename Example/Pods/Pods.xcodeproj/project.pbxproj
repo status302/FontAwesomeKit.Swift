@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		031A0352831D5B4662B6D3B73AE322BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		15071D7FB029073C0E53E535471AA87B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		1FAF328CA94BD12FC32C378A84CEFE22 /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE780963C7816449FF550CDE9893B81 /* FontAwesomeKit.swift */; };
 		35362607B51681FA0D19B7EF88F5CD89 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
-		356F9D3E0725D4189E00688C23E05C40 /* FontAwesomeKit.Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DECDB1042308474C49ACC79EFB612B0E /* FontAwesomeKit.Swift-dummy.m */; };
-		4FB5E375BEEE5331A4717147E0CD610D /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE5E905F59E90D32E3112104BDC5A009 /* FontAwesome.otf */; };
-		720DE3DD816A891035BF9C6520CEC0BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		37AB3E306E46A6D2D228548E21B6549A /* FontAwesomeAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBA80C1A75362AF49FAB31E2F4BA06 /* FontAwesomeAble.swift */; };
+		495D29A5CFFB778FD3319D1772A2A386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		4EE87366E31658929C17CC75D891B45C /* FontAwesomeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914530CC416C6AAAEE13EF0D1EEF494E /* FontAwesomeLabel.swift */; };
+		56999A9B3BB84CBDD8659F8BDD3AFCFA /* FontAwesomeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E9FEEDF570AF4BB39EB5AD6078372 /* FontAwesomeEnum.swift */; };
+		73F7BC0F201A56E38B09836AF56D238D /* FontAwesomeKit.Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29426498B3E97F584B5DF56EBD7B8A7 /* FontAwesomeKit.Swift-dummy.m */; };
+		74D42ECB40D57E695220C235E4CC7AD3 /* FontAwesomeKit.Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32CDB5DBE5E5502CB4595B4CCEC4CB3E /* FontAwesomeKit.Swift.bundle */; };
 		86C0AA6388D862CB284F6795D77E5B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		8B463627E408D922033990F25D781E0F /* FontAwesomeKit.Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32CDB5DBE5E5502CB4595B4CCEC4CB3E /* FontAwesomeKit.Swift.bundle */; };
-		8B81B77C41A35DC4372FFC0C8B86F1DB /* FontAwesomeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342E9D71173C5E7226D1FC2733A7FAC6 /* FontAwesomeEnum.swift */; };
-		BFC933B08CB8B35263ED17EA7F725246 /* FontAwesomeKit.Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD91215E0698DFC67BA9BDA95E592FA /* FontAwesomeKit.Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCA02994BAADFDD3007376F8A185BAEB /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC149D17C6056DDB3839FD1CA1867235 /* FontAwesomeKit.swift */; };
+		C8189C1CB6031063CBED61C8DA73E1F2 /* FontAwesomeKit.Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BE7C8C0D62625697CC6FC8618F29BD /* FontAwesomeKit.Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE644F818B303FD8FFAD90447306FFF1 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F36C8545287C78137ED0E394288994 /* FontAwesomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E03533436CB36E57A0BDA6EB86EEBF /* FontAwesomeButton.swift */; };
+		FB98FC8CD7385E3FDD14E1645A7102FF /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7C4BD84F95596707BACD21981CA5BF /* FontAwesome.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,44 +28,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC2A6DF6B279D06CA2DE98359DAE5BD9;
+			remoteGlobalIDString = AC360B5782DBA6B026B4CDDEA3FE1D54;
 			remoteInfo = FontAwesomeKit.Swift;
 		};
-		F95E91D8F28B5DA9167DD1D67C54A7A1 /* PBXContainerItemProxy */ = {
+		5C3847EBE17F4438C5897A89C59608C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6454D9B351AC128FA67A3CC36A11D3EA;
+			remoteGlobalIDString = B3006F689C53E4DF9FA8C013AF5BBD5A;
 			remoteInfo = "FontAwesomeKit.Swift-FontAwesomeKit.Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		108BF7C9D791E18C8ED57B7BB8896AB8 /* ResourceBundle-FontAwesomeKit.Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesomeKit.Swift-Info.plist"; sourceTree = "<group>"; };
 		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E7C4BD84F95596707BACD21981CA5BF /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		1F63E8BF4DFDF2471D43D13DA0030CDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32CDB5DBE5E5502CB4595B4CCEC4CB3E /* FontAwesomeKit.Swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeKit.Swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		342E9D71173C5E7226D1FC2733A7FAC6 /* FontAwesomeEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeEnum.swift; path = FontAwesomeKit/FontAwesomeEnum.swift; sourceTree = "<group>"; };
+		3C5E9FEEDF570AF4BB39EB5AD6078372 /* FontAwesomeEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeEnum.swift; path = FontAwesomeKit/FontAwesomeEnum.swift; sourceTree = "<group>"; };
+		4B37603880CECFCD45C8593A100A680A /* FontAwesomeKit.Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit.Swift-prefix.pch"; sourceTree = "<group>"; };
 		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		664FD05E064BDC53BB439EDEDE7E9C48 /* FontAwesomeKit.Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesomeKit.Swift.modulemap; sourceTree = "<group>"; };
 		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		6E3E525C91A8DE89FB9298CF49CFB87D /* FontAwesomeKit.Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.Swift.xcconfig; sourceTree = "<group>"; };
 		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		78E84C3938DE2B0A7765D6E8718EBF7A /* FontAwesomeKit.Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit.Swift-prefix.pch"; sourceTree = "<group>"; };
+		914530CC416C6AAAEE13EF0D1EEF494E /* FontAwesomeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeLabel.swift; path = FontAwesomeKit/FontAwesomeLabel.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FBA80C1A75362AF49FAB31E2F4BA06 /* FontAwesomeAble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeAble.swift; path = FontAwesomeKit/FontAwesomeAble.swift; sourceTree = "<group>"; };
 		A27A1A3AF6514F5D5E1BC5FC7A4A9E44 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29426498B3E97F584B5DF56EBD7B8A7 /* FontAwesomeKit.Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit.Swift-dummy.m"; sourceTree = "<group>"; };
 		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A5B4645A436E943D75C935FF65AA458E /* FontAwesomeKit_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C475D06E8CE90A7513BC5C2280E09184 /* ResourceBundle-FontAwesomeKit.Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesomeKit.Swift-Info.plist"; sourceTree = "<group>"; };
+		AE0111CC9FB53C8CF84A3C9E81407F74 /* FontAwesomeKit.Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesomeKit.Swift.modulemap; sourceTree = "<group>"; };
+		C02B2EBC5FC159633C0AB7C68A57E6A3 /* FontAwesomeKit.Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.Swift.xcconfig; sourceTree = "<group>"; };
+		C1BE7C8C0D62625697CC6FC8618F29BD /* FontAwesomeKit.Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit.Swift-umbrella.h"; sourceTree = "<group>"; };
 		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		CFD91215E0698DFC67BA9BDA95E592FA /* FontAwesomeKit.Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit.Swift-umbrella.h"; sourceTree = "<group>"; };
-		DC149D17C6056DDB3839FD1CA1867235 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeKit.swift; path = FontAwesomeKit/FontAwesomeKit.swift; sourceTree = "<group>"; };
-		DE5E905F59E90D32E3112104BDC5A009 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
-		DECDB1042308474C49ACC79EFB612B0E /* FontAwesomeKit.Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit.Swift-dummy.m"; sourceTree = "<group>"; };
-		E376D9A5F4E4B9060DCE5936A6E92218 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		E6E03533436CB36E57A0BDA6EB86EEBF /* FontAwesomeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeButton.swift; path = FontAwesomeKit/FontAwesomeButton.swift; sourceTree = "<group>"; };
 		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EFE780963C7816449FF550CDE9893B81 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeKit.swift; path = FontAwesomeKit/FontAwesomeKit.swift; sourceTree = "<group>"; };
 		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,16 +81,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF1E761269CE2E9FA57CA70E7531AD4B /* Frameworks */ = {
+		A6D611B94F016C2208071A0C16DCB4E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031A0352831D5B4662B6D3B73AE322BB /* Foundation.framework in Frameworks */,
-				720DE3DD816A891035BF9C6520CEC0BD /* UIKit.framework in Frameworks */,
+				15071D7FB029073C0E53E535471AA87B /* Foundation.framework in Frameworks */,
+				495D29A5CFFB778FD3319D1772A2A386 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE9EBF5B49C3DF338A0DBFF5A909B0FB /* Frameworks */ = {
+		E721DD92A7744268DD05E71BBE8D97C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,20 +110,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		40E6032C89570B3D3620364D3DE7A7B4 /* FontAwesomeKit.Swift */ = {
+			isa = PBXGroup;
+			children = (
+				98FBA80C1A75362AF49FAB31E2F4BA06 /* FontAwesomeAble.swift */,
+				E6E03533436CB36E57A0BDA6EB86EEBF /* FontAwesomeButton.swift */,
+				3C5E9FEEDF570AF4BB39EB5AD6078372 /* FontAwesomeEnum.swift */,
+				EFE780963C7816449FF550CDE9893B81 /* FontAwesomeKit.swift */,
+				914530CC416C6AAAEE13EF0D1EEF494E /* FontAwesomeLabel.swift */,
+				79C5E6CD26568225EBA15E714AC18BD7 /* Resources */,
+				E20F3A9A9E61D4BC45ED079702006D46 /* Support Files */,
+			);
+			path = FontAwesomeKit.Swift;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		656A081D21252B26E77AC89E803B6BD0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D911A0C6311C91C03F1663B791AA2898 /* FontAwesomeKit.Swift */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
@@ -128,34 +140,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		79C5E6CD26568225EBA15E714AC18BD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E7C4BD84F95596707BACD21981CA5BF /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				656A081D21252B26E77AC89E803B6BD0 /* Pods */,
+				DD202223E6438254DA23758E072DC835 /* Pods */,
 				0DF7009A82492CDB08D372E7C93BA6F8 /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D911A0C6311C91C03F1663B791AA2898 /* FontAwesomeKit.Swift */ = {
+		DD202223E6438254DA23758E072DC835 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				342E9D71173C5E7226D1FC2733A7FAC6 /* FontAwesomeEnum.swift */,
-				DC149D17C6056DDB3839FD1CA1867235 /* FontAwesomeKit.swift */,
-				DBB781E6F9B33A0A7FADED76FC1CACEE /* Resources */,
-				FFB3EA890E6F6A2CE2032AAD98FED82D /* Support Files */,
+				40E6032C89570B3D3620364D3DE7A7B4 /* FontAwesomeKit.Swift */,
 			);
-			path = FontAwesomeKit.Swift;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		DBB781E6F9B33A0A7FADED76FC1CACEE /* Resources */ = {
+		E20F3A9A9E61D4BC45ED079702006D46 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE5E905F59E90D32E3112104BDC5A009 /* FontAwesome.otf */,
+				AE0111CC9FB53C8CF84A3C9E81407F74 /* FontAwesomeKit.Swift.modulemap */,
+				C02B2EBC5FC159633C0AB7C68A57E6A3 /* FontAwesomeKit.Swift.xcconfig */,
+				A29426498B3E97F584B5DF56EBD7B8A7 /* FontAwesomeKit.Swift-dummy.m */,
+				4B37603880CECFCD45C8593A100A680A /* FontAwesomeKit.Swift-prefix.pch */,
+				C1BE7C8C0D62625697CC6FC8618F29BD /* FontAwesomeKit.Swift-umbrella.h */,
+				1F63E8BF4DFDF2471D43D13DA0030CDD /* Info.plist */,
+				108BF7C9D791E18C8ED57B7BB8896AB8 /* ResourceBundle-FontAwesomeKit.Swift-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit.Swift";
 			sourceTree = "<group>";
 		};
 		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
@@ -185,29 +209,14 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		FFB3EA890E6F6A2CE2032AAD98FED82D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				664FD05E064BDC53BB439EDEDE7E9C48 /* FontAwesomeKit.Swift.modulemap */,
-				6E3E525C91A8DE89FB9298CF49CFB87D /* FontAwesomeKit.Swift.xcconfig */,
-				DECDB1042308474C49ACC79EFB612B0E /* FontAwesomeKit.Swift-dummy.m */,
-				78E84C3938DE2B0A7765D6E8718EBF7A /* FontAwesomeKit.Swift-prefix.pch */,
-				CFD91215E0698DFC67BA9BDA95E592FA /* FontAwesomeKit.Swift-umbrella.h */,
-				E376D9A5F4E4B9060DCE5936A6E92218 /* Info.plist */,
-				C475D06E8CE90A7513BC5C2280E09184 /* ResourceBundle-FontAwesomeKit.Swift-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FontAwesomeKit.Swift";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BE3B5BF50D7A2BB520B32FB77BE0E1CA /* Headers */ = {
+		9BF1D9DCD4A6AF0B3EC5E62FFF6EC12D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC933B08CB8B35263ED17EA7F725246 /* FontAwesomeKit.Swift-umbrella.h in Headers */,
+				C8189C1CB6031063CBED61C8DA73E1F2 /* FontAwesomeKit.Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,23 +231,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6454D9B351AC128FA67A3CC36A11D3EA /* FontAwesomeKit.Swift-FontAwesomeKit.Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DB5C07FFF5952965D70DAF2CC7DC19E /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift-FontAwesomeKit.Swift" */;
-			buildPhases = (
-				3F876EE8572BC18606FC47FBE637FA32 /* Sources */,
-				DE9EBF5B49C3DF338A0DBFF5A909B0FB /* Frameworks */,
-				12732A3DC67965C08A5844DAA0800A47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FontAwesomeKit.Swift-FontAwesomeKit.Swift";
-			productName = "FontAwesomeKit.Swift-FontAwesomeKit.Swift";
-			productReference = 32CDB5DBE5E5502CB4595B4CCEC4CB3E /* FontAwesomeKit.Swift.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		98A4E1FB3ED500329BD8A3FF5DE53F24 /* Pods-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABA527E46BFA587EEF55660486B94DF /* Build configuration list for PBXNativeTarget "Pods-Example" */;
@@ -257,24 +249,41 @@
 			productReference = A27A1A3AF6514F5D5E1BC5FC7A4A9E44 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC2A6DF6B279D06CA2DE98359DAE5BD9 /* FontAwesomeKit.Swift */ = {
+		AC360B5782DBA6B026B4CDDEA3FE1D54 /* FontAwesomeKit.Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F737C9DA6010D9F9E0567DA3B6EE2A74 /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift" */;
+			buildConfigurationList = F9FF056D7DC6A49D8E4A07F24DD8BD52 /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift" */;
 			buildPhases = (
-				7810A8341781BFAE7AE00FFEC581A33F /* Sources */,
-				BF1E761269CE2E9FA57CA70E7531AD4B /* Frameworks */,
-				A636801704886DEF93A8B369B591C804 /* Resources */,
-				BE3B5BF50D7A2BB520B32FB77BE0E1CA /* Headers */,
+				0F46B952ECB63A01C898B26A59B677BB /* Sources */,
+				A6D611B94F016C2208071A0C16DCB4E7 /* Frameworks */,
+				9D44CE80E743260174CFE30687F58091 /* Resources */,
+				9BF1D9DCD4A6AF0B3EC5E62FFF6EC12D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CCD93FBA76079F5F7607BBF67FED91A9 /* PBXTargetDependency */,
+				9D64B84039AA94A89488F2A8E7C3C653 /* PBXTargetDependency */,
 			);
 			name = FontAwesomeKit.Swift;
 			productName = FontAwesomeKit.Swift;
 			productReference = A5B4645A436E943D75C935FF65AA458E /* FontAwesomeKit_Swift.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		B3006F689C53E4DF9FA8C013AF5BBD5A /* FontAwesomeKit.Swift-FontAwesomeKit.Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4AA949FCF39EC2F8B649441A7DEA7D /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift-FontAwesomeKit.Swift" */;
+			buildPhases = (
+				93A8D33C47D6F7CC6F9932DE7ABBC5FA /* Sources */,
+				E721DD92A7744268DD05E71BBE8D97C9 /* Frameworks */,
+				F9FE4FE4D09B5C897BD3E179C434A6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesomeKit.Swift-FontAwesomeKit.Swift";
+			productName = "FontAwesomeKit.Swift-FontAwesomeKit.Swift";
+			productReference = 32CDB5DBE5E5502CB4595B4CCEC4CB3E /* FontAwesomeKit.Swift.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -297,33 +306,46 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC2A6DF6B279D06CA2DE98359DAE5BD9 /* FontAwesomeKit.Swift */,
-				6454D9B351AC128FA67A3CC36A11D3EA /* FontAwesomeKit.Swift-FontAwesomeKit.Swift */,
+				AC360B5782DBA6B026B4CDDEA3FE1D54 /* FontAwesomeKit.Swift */,
+				B3006F689C53E4DF9FA8C013AF5BBD5A /* FontAwesomeKit.Swift-FontAwesomeKit.Swift */,
 				98A4E1FB3ED500329BD8A3FF5DE53F24 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12732A3DC67965C08A5844DAA0800A47 /* Resources */ = {
+		9D44CE80E743260174CFE30687F58091 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB5E375BEEE5331A4717147E0CD610D /* FontAwesome.otf in Resources */,
+				74D42ECB40D57E695220C235E4CC7AD3 /* FontAwesomeKit.Swift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A636801704886DEF93A8B369B591C804 /* Resources */ = {
+		F9FE4FE4D09B5C897BD3E179C434A6C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B463627E408D922033990F25D781E0F /* FontAwesomeKit.Swift.bundle in Resources */,
+				FB98FC8CD7385E3FDD14E1645A7102FF /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F46B952ECB63A01C898B26A59B677BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AB3E306E46A6D2D228548E21B6549A /* FontAwesomeAble.swift in Sources */,
+				E4F36C8545287C78137ED0E394288994 /* FontAwesomeButton.swift in Sources */,
+				56999A9B3BB84CBDD8659F8BDD3AFCFA /* FontAwesomeEnum.swift in Sources */,
+				1FAF328CA94BD12FC32C378A84CEFE22 /* FontAwesomeKit.swift in Sources */,
+				73F7BC0F201A56E38B09836AF56D238D /* FontAwesomeKit.Swift-dummy.m in Sources */,
+				4EE87366E31658929C17CC75D891B45C /* FontAwesomeLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		350CFFB585FB062EFD64C7C4D7C2B9DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,20 +354,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F876EE8572BC18606FC47FBE637FA32 /* Sources */ = {
+		93A8D33C47D6F7CC6F9932DE7ABBC5FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7810A8341781BFAE7AE00FFEC581A33F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B81B77C41A35DC4372FFC0C8B86F1DB /* FontAwesomeEnum.swift in Sources */,
-				DCA02994BAADFDD3007376F8A185BAEB /* FontAwesomeKit.swift in Sources */,
-				356F9D3E0725D4189E00688C23E05C40 /* FontAwesomeKit.Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +367,14 @@
 		6340D2D87477A0E2F25BB4D41F94987C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesomeKit.Swift;
-			target = DC2A6DF6B279D06CA2DE98359DAE5BD9 /* FontAwesomeKit.Swift */;
+			target = AC360B5782DBA6B026B4CDDEA3FE1D54 /* FontAwesomeKit.Swift */;
 			targetProxy = 07B59ABBFF18F315EDEDA1A787728368 /* PBXContainerItemProxy */;
 		};
-		CCD93FBA76079F5F7607BBF67FED91A9 /* PBXTargetDependency */ = {
+		9D64B84039AA94A89488F2A8E7C3C653 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FontAwesomeKit.Swift-FontAwesomeKit.Swift";
-			target = 6454D9B351AC128FA67A3CC36A11D3EA /* FontAwesomeKit.Swift-FontAwesomeKit.Swift */;
-			targetProxy = F95E91D8F28B5DA9167DD1D67C54A7A1 /* PBXContainerItemProxy */;
+			target = B3006F689C53E4DF9FA8C013AF5BBD5A /* FontAwesomeKit.Swift-FontAwesomeKit.Swift */;
+			targetProxy = 5C3847EBE17F4438C5897A89C59608C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -411,6 +423,56 @@
 			};
 			name = Debug;
 		};
+		03D46F6B1E131F286A2501BDB404C36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02B2EBC5FC159633C0AB7C68A57E6A3 /* FontAwesomeKit.Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit.Swift/FontAwesomeKit.Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit.Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit.Swift/FontAwesomeKit.Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesomeKit_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34107526FAF3E333FFB61BF037AC4698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02B2EBC5FC159633C0AB7C68A57E6A3 /* FontAwesomeKit.Swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesomeKit.Swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit.Swift/ResourceBundle-FontAwesomeKit.Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesomeKit.Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,42 +513,9 @@
 			};
 			name = Release;
 		};
-		4AB66BE8DA001DDBEEE7351D5F178184 /* Debug */ = {
+		51951C530B05E34776C44574B57EA358 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E3E525C91A8DE89FB9298CF49CFB87D /* FontAwesomeKit.Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit.Swift/FontAwesomeKit.Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit.Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit.Swift/FontAwesomeKit.Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FontAwesomeKit_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		713C6389CBB8B56040293516F1B0E949 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E3E525C91A8DE89FB9298CF49CFB87D /* FontAwesomeKit.Swift.xcconfig */;
+			baseConfigurationReference = C02B2EBC5FC159633C0AB7C68A57E6A3 /* FontAwesomeKit.Swift.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesomeKit.Swift";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -499,7 +528,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		83644982BE220460ABDF24FE091D23D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -537,9 +566,9 @@
 			};
 			name = Debug;
 		};
-		857C5C90A7CA8BE90DFE55295145CD6A /* Release */ = {
+		D3BC771FBE074F77255EB7E967FEE9CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E3E525C91A8DE89FB9298CF49CFB87D /* FontAwesomeKit.Swift.xcconfig */;
+			baseConfigurationReference = C02B2EBC5FC159633C0AB7C68A57E6A3 /* FontAwesomeKit.Swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -568,23 +597,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		AB524C0CC54CD67FB6F8C70CB214D140 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E3E525C91A8DE89FB9298CF49CFB87D /* FontAwesomeKit.Swift.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesomeKit.Swift";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit.Swift/ResourceBundle-FontAwesomeKit.Swift-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = FontAwesomeKit.Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		F1A3FA795E4157F10316CFEDCAEA17FB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -624,15 +636,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DB5C07FFF5952965D70DAF2CC7DC19E /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift-FontAwesomeKit.Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB524C0CC54CD67FB6F8C70CB214D140 /* Debug */,
-				713C6389CBB8B56040293516F1B0E949 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -651,11 +654,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F737C9DA6010D9F9E0567DA3B6EE2A74 /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift" */ = {
+		4E4AA949FCF39EC2F8B649441A7DEA7D /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift-FontAwesomeKit.Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AB66BE8DA001DDBEEE7351D5F178184 /* Debug */,
-				857C5C90A7CA8BE90DFE55295145CD6A /* Release */,
+				51951C530B05E34776C44574B57EA358 /* Debug */,
+				34107526FAF3E333FFB61BF037AC4698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9FF056D7DC6A49D8E4A07F24DD8BD52 /* Build configuration list for PBXNativeTarget "FontAwesomeKit.Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D46F6B1E131F286A2501BDB404C36D /* Debug */,
+				D3BC771FBE074F77255EB7E967FEE9CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

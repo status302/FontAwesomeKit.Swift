@@ -21,7 +21,6 @@
 //  SOFTWARE.
 //
 //
-//  Every extension here.
 
 import UIKit
 
@@ -32,7 +31,7 @@ public extension UIImage {
     /// - parameter label: The label you gave
     ///
     /// - returns: The image you will get
-    public class func imageWithLabel(_ label: UILabel?) -> UIImage? {
+    internal class func imageWithLabel(_ label: UILabel?) -> UIImage? {
         guard let targetLabel = label else {
             return nil
         }
@@ -58,7 +57,7 @@ public extension UIImage {
 
         let imageLabel = UILabel()
         imageLabel.fa_text = type
-        imageLabel.fa_font = UIFont(fa_fontSize: fontSize)
+        imageLabel.font = UIFont(fa_fontSize: fontSize)
         imageLabel.textColor = tintColor
         imageLabel.sizeToFit()
         let image = UIImage.imageWithLabel(imageLabel)
@@ -77,7 +76,7 @@ public extension String {
     /// - parameter type: The type you should give.
     ///
     /// - returns: The string icon you will get.
-    public static func fontAwesome(awesomeType type: FontAwesomeType) -> String {
+    public static func fontAwesome(_ type: FontAwesomeType) -> String {
         return String(format: "%C", type.rawValue)
     }
 
@@ -117,18 +116,6 @@ public extension UIFont {
 public extension UILabel {
 
     ///
-    /// Resize font size by set fa_font. default is 17.
-    ///
-    public var fa_font: UIFont? {
-        set {
-            self.font = newValue
-        }
-        get {
-            return self.fa_font
-        }
-    }
-
-    ///
     /// A new property to UILabel, which is FontAwesome icon.
     /// default is nil.
     /// default font size is '17.0'.
@@ -151,7 +138,7 @@ public extension UIButton {
     /// - parameter type:  The fontAwesome type, and you don't need to 'setImage' or 'setBackgroundImage'
     /// - parameter state: The state that uses the specified title. The possible values are described in UIControlState.
     public func fa_setTitle(_ type: FontAwesomeType, for state: UIControlState) {
-        self.titleLabel?.fa_font = UIFont(fa_fontSize: 28)
+        self.titleLabel?.font = UIFont(fa_fontSize: 28)
         let cChar = String(format: "%C", type.rawValue)
 
         self.setTitle(cChar, for: state)
@@ -170,7 +157,7 @@ public extension UIBarButtonItem {
     public convenience init(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 24.0, style: UIBarButtonItemStyle, target: Any?, action: Selector?) {
         let barItemLabel = UILabel()
         barItemLabel.fa_text = type
-        barItemLabel.fa_font = UIFont(fa_fontSize: fontSize)
+        barItemLabel.font = UIFont(fa_fontSize: fontSize)
         barItemLabel.sizeToFit()
 
         let img = UIImage.imageWithLabel(barItemLabel)
@@ -188,7 +175,7 @@ public extension UINavigationItem {
     public func fa_setTitle(_ type: FontAwesomeType, size fontSize: CGFloat = 32.0, color tintColor: UIColor = UIColor.darkGray) {
         let titleLabel = UILabel()
         titleLabel.fa_text = type
-        titleLabel.fa_font = UIFont(fa_fontSize: fontSize)
+        titleLabel.font = UIFont(fa_fontSize: fontSize)
         titleLabel.textColor = tintColor
         titleLabel.sizeToFit()
         self.titleView = titleLabel

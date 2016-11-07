@@ -1,28 +1,42 @@
 FontAwesomeKit.Swift
 ========
-😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍 
+😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍     
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/LICENSE)
-[![](https://img.shields.io/badge/Pod-v0.1.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
+[![](https://img.shields.io/badge/Pod-v0.2.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
+
+![FontAwesome.otf 4.6.3](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/FontAwesomeKitExample.png)
+
 Support
 ========
-Swift 3.0 & iOS 8.0+
+Swift 3.0 & iOS 8.0+   
+FontAwesome 4.6.3  
+Storyboard Now.
 
 Installation
 ========
 #### CocoaPods
-1. add `pod FontAwesomeKit.Swift` to your Podfile.
+1. add `pod 'FontAwesomeKit.Swift'` to your Podfile.
 2. Run `pod install` OR `pod update`.
-3. `import FontAwesomeKit.Swift`
+3. `import FontAwesomeKit_Swift`
 
 #### Manually
 1. [Download](https://github.com/qiuncheng/FontAwesomeKit.Swift/archive/master.zip) the full file.
 2. Drag the FontAwesomeKit folder to your project.
+
 Example
 ========
+
+#### Use `FontAwesomeKit.Swift` in Storyboard. 
+ 1. Set Custom class to `FontAwesomeButton` or `FontAwesomeLabel`
+ 2. Set Awesome Unicode String in Attributes inspector  
+ // All awesome unicode --> http://fontawesome.io/cheatsheet/
+
+
+![FontAwesomeKit.Swift For Storyboard](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/storyboard.jpg)
 
 #### Use `FontAwesomeKit.Swift` with String.
 ```
@@ -69,7 +83,13 @@ LICENCE
 ========
 Under [MIT License](https://github.com/qiuncheng/FontAwesomeKit.Swift/blob/master/LICENSE)
 
-Copyright (c) 2016 [QiunCheng](http://qiuncheng.com).
+Copyright (c) 2016 [QiunCheng](http://qiuncheng.com). All rights reserved.
+
+Thanks
+========
+1. [The FontAwesome Unicode list.](http://fontawesome.io/cheatsheet/) From fontawesome.io
+2. [The Lastest(version4.6.3) FontAwesome.otf bundle](http://fontawesome.io/assets/font-awesome-4.6.3.zip)
+
 About me
 ========
 A student in Xidian university.  

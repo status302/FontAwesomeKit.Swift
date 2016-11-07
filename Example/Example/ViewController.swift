@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
         let leftItem = UIBarButtonItem(awesomeType: .fa_windows, size: 24, style: .plain, target: nil, action: nil)
         self.navigationItem.leftBarButtonItem = leftItem
 
-        let rightItem = UIBarButtonItem(awesomeType: .fa_android, style: .plain, target: nil, action: nil)
+        let rightItem = UIBarButtonItem(awesomeType: .fa_android, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
         self.navigationItem.rightBarButtonItem = rightItem
         self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .fa_apple, size: 10, color: UIColor.black))
     }
@@ -37,7 +37,10 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cell.textLabel?.fa_text = types[indexPath.row]
         cell.detailTextLabel?.text = names[indexPath.row]
-
+    }
+    func pushToFontAwesomeStoryboard() {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FontAwesomeStoryboard")
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
