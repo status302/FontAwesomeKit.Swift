@@ -32,7 +32,7 @@ Example
 
 #### Use `FontAwesomeKit.Swift` in Storyboard. 
  1. Set Custom class to `FontAwesomeButton` or `FontAwesomeLabel`
- 2. Set Awesome Unicode String in Attributes inspector  
+ 2. Set Awesome Unicode String in Attributes inspector, such as `f107` or `0xf107`  
  // All awesome unicode --> http://fontawesome.io/cheatsheet/
 
 
@@ -52,9 +52,8 @@ The attrStr2 will get icon.![](http://7xk67j.com1.z0.glb.clouddn.com/github.png)
 ```
 let label = UILabel()
 label.fa_text = .fa_apple
-label.fa_font = UIFont(fa_fontSize: 100)
+label.font = UIFont(fa_fontSize: 100)
 /// fa_text : FontAwesomeType.
-/// fa_font : set the font size.
 ```
 #### Use `FontAwesomeKit.Swift` with UIButton.
 ```
@@ -62,7 +61,7 @@ let button = UIButton(type: .custom)
 button.fa_setTitle(.fa_gift, for: .normal)
 /// type : The fontAwesome type, and you don’t need to ‘setImage’ or ‘setBackgroundImage’
 /// state : The state that uses the specified title. The possible values are described in UIControlState.
-button.titleLabel?.fa_font = UIFont(fa_fontSize: 50)
+button.titleLabel?.font = UIFont(fa_fontSize: 50)
 ```
 #### Use `FontAwesomeKit.Swift` with UIImage.
 ```
