@@ -32,7 +32,7 @@ public extension UIImage {
     /// - parameter label: The label you gave
     ///
     /// - returns: The image you will get
-    public class func imageWithLabel(_ label: UILabel?) -> UIImage? {
+    internal class func imageWithLabel(_ label: UILabel?) -> UIImage? {
         guard let targetLabel = label else {
             return nil
         }
@@ -77,7 +77,7 @@ public extension String {
     /// - parameter type: The type you should give.
     ///
     /// - returns: The string icon you will get.
-    public static func fontAwesome(awesomeType type: FontAwesomeType) -> String {
+    public static func fontAwesome(_ type: FontAwesomeType) -> String {
         return String(format: "%C", type.rawValue)
     }
 
