@@ -13,6 +13,9 @@
 		868F6E7D1DB2842A0077D257 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		868F6E891DB284E00077D257 /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E871DB284E00077D257 /* FontAwesomeKit.swift */; };
 		868F6E8B1DB285220077D257 /* FontAwesomeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */; };
+		86BFF23E1DD0DAE900AB0370 /* FontAwesomeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFF23B1DD0DAE900AB0370 /* FontAwesomeLabel.swift */; };
+		86BFF23F1DD0DAE900AB0370 /* FontAwesomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFF23C1DD0DAE900AB0370 /* FontAwesomeButton.swift */; };
+		86BFF2401DD0DAE900AB0370 /* FontAwesomeAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFF23D1DD0DAE900AB0370 /* FontAwesomeAble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		868F6E7C1DB2842A0077D257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		868F6E871DB284E00077D257 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
 		868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeEnum.swift; sourceTree = "<group>"; };
+		86BFF23B1DD0DAE900AB0370 /* FontAwesomeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeLabel.swift; sourceTree = "<group>"; };
+		86BFF23C1DD0DAE900AB0370 /* FontAwesomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeButton.swift; sourceTree = "<group>"; };
+		86BFF23D1DD0DAE900AB0370 /* FontAwesomeAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeAble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				868F6E871DB284E00077D257 /* FontAwesomeKit.swift */,
 				868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */,
 				868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */,
+				86BFF23B1DD0DAE900AB0370 /* FontAwesomeLabel.swift */,
+				86BFF23C1DD0DAE900AB0370 /* FontAwesomeButton.swift */,
+				86BFF23D1DD0DAE900AB0370 /* FontAwesomeAble.swift */,
 				868F6E701DB2842A0077D257 /* Info.plist */,
 			);
 			path = FontAwesomeKit;
@@ -208,7 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86BFF2401DD0DAE900AB0370 /* FontAwesomeAble.swift in Sources */,
+				86BFF23E1DD0DAE900AB0370 /* FontAwesomeLabel.swift in Sources */,
 				868F6E891DB284E00077D257 /* FontAwesomeKit.swift in Sources */,
+				86BFF23F1DD0DAE900AB0370 /* FontAwesomeButton.swift in Sources */,
 				868F6E8B1DB285220077D257 /* FontAwesomeEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
