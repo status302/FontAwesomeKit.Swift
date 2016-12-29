@@ -5,46 +5,78 @@
 
 import UIKit
 
-internal protocol FontAwesomeAble {
-    var awesomeUnicode: String { get set }
+@objc internal protocol FontAwesomeAble {
+    @objc optional var unicode: String { get set }
+    @objc optional var normalUnicode: String { get set }
+    @objc optional var highlightedUnicode: String { get set }
+    @objc optional var selectedUnicode: String { get set }
+    @objc optional var disabledUnicode: String { get set }
 }
 
 extension FontAwesomeAble where Self: UILabel {
     func configFontAwesomeLabel() {
-        var str: String = awesomeUnicode
+        guard var str = unicode else { return }
+       
         if str.hasPrefix("0x") {
-            str = (self.awesomeUnicode as NSString).substring(from: 2)
+            str = str.fa_substring(from: 2)
         }
+
         if let unicode = UniChar(str, radix: 16) {
-            self.text = String.fontAwesome(undefined: unicode)
-            self.font = UIFont(fa_fontSize: min(self.frame.size.width, self.frame.size.height))
+            text = String.fontAwesome(undefined: unicode)
+            font = UIFont(fa_fontSize: min(frame.width, frame.height))
         }
     }
 }
 
 extension FontAwesomeAble where Self: UIButton {
+    
     func configFontAwesomeButton() {
-        var str: String = awesomeUnicode
+        configFontAwesomeButtonWithNormalState()
+        configFontAwesomeButtonWithHighlightedState()
+        configFontAwesomeButtonWithSelectedState()
+        configFontAwesomeButtonWithDisableState()
+    }
+    
+    func configFontAwesomeButtonWithSelectedState() {
+        guard let str = selectedUnicode else { return }
+        configFontAwesomeButtonWith(unicode: str, state: .selected)
+    }
+    
+    func configFontAwesomeButtonWithDisableState() {
+        guard let str = disabledUnicode else { return }
+        configFontAwesomeButtonWith(unicode: str, state: .disabled)
+    }
+    
+    func configFontAwesomeButtonWithHighlightedState() {
+        guard let str = highlightedUnicode else { return }
+        configFontAwesomeButtonWith(unicode: str, state: .highlighted)
+    }
+    
+    func configFontAwesomeButtonWithNormalState() {
+        guard let str = normalUnicode else { return }
+        
+        configFontAwesomeButtonWith(unicode: str, state: .normal)
+    }
+    
+    private func configFontAwesomeButtonWith(unicode: String, state: UIControlState) {
+        var str: String = unicode
         if str.hasPrefix("0x") {
-            str = (awesomeUnicode as NSString).substring(from: 2)
+            str = str.fa_substring(from: 2)
         }
-        if let unicode = UniChar(str, radix: 16) {
-            self.titleLabel?.font = UIFont(fa_fontSize: min(self.frame.size.width, self.frame.size.height))
-            self.setTitle(String.fontAwesome(undefined: unicode), for: .normal)
+        if let unicodeStr = UniChar(str, radix: 16) {
+            titleLabel?.font = UIFont(fa_fontSize: min(frame.width, frame.height))
+            setTitle(String.fontAwesome(undefined: unicodeStr), for: state)
         }
     }
 }
 
-extension FontAwesomeAble where Self: UIBarButtonItem {
-    func configFontAwesomeBarButtonItem() {
-        var str: String = awesomeUnicode
-        if str.hasPrefix("0x") {
-            str = (str as NSString).substring(from: 2)
-        }
-        if let unicode = UniChar(str, radix: 16) {
-            let attrs = [NSFontAttributeName: UIFont(fa_fontSize: 20)]
-            self.setTitleTextAttributes(attrs, for: .normal)
-            self.title = String.fontAwesome(undefined: unicode)
-        }
+extension String {
+    func fa_substring(from: Int) -> String {
+        let index = self.index(self.startIndex, offsetBy: from)
+        return self.substring(from: index)
+    }
+    func fa_substring(to: Int) -> String {
+        let index = self.index(self.startIndex, offsetBy: to)
+        return self.substring(to: index)
     }
 }

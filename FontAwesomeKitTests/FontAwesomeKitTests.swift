@@ -14,7 +14,7 @@ class FontAwesomeKitTests: XCTestCase {
 
     func testLabelFont() {
         let label = UILabel()
-        label.fa_font = UIFont(fa_fontSize: 50)
+        label.font = UIFont(fa_fontSize: 50)
         XCTAssert((label.font != nil), "Icon font should not be nil.")
     }
     func testLabelText() {
@@ -35,17 +35,34 @@ class FontAwesomeKitTests: XCTestCase {
         let barItem = UIBarButtonItem()
         let attrs = [NSFontAttributeName: UIFont(fa_fontSize: 100)]
         barItem.setTitleTextAttributes(attrs, for: .normal)
-        barItem.title = String.fontAwesome(awesomeType: .fa_git)
+        barItem.title = String.fontAwesome(.fa_git)
         XCTAssertEqual(barItem.title, String(format: "%C", 0xf1d3))
     }
     func testTitleWithUnicode() {
         let str = String.fontAwesome(undefined: 0xf042)
-        let adjustStr = String.fontAwesome(awesomeType: .fa_adjust)
+        let adjustStr = String.fontAwesome(.fa_adjust)
         XCTAssertEqual(str, adjustStr)
     }
     func testBarItem() {
     let barItem = UIBarButtonItem(awesomeType: .fa_android, size: 100, style: .plain, target: nil, action: nil)
         XCTAssert(barItem.image != nil, "barItem image should not be nil.")
+    }
+    func testFontAwesomeLabel() {
+        let label = FontAwesomeLabel()
+        label.unicode = "0xf26e"
+        XCTAssertTrue(label.text == String.fontAwesome(.fa_500px), "label text should be .fa_500px.")
+    }
+    func testFontAwesomeButton() {
+        let button = FontAwesomeButton()
+        button.disabledUnicode = "0xf037"
+        button.normalUnicode = "0xf039"
+        button.selectedUnicode = "0xf036"
+        button.highlightedUnicode = "0xf038"
+        
+        XCTAssertTrue(button.title(for: .disabled) == String.fontAwesome(.fa_align_center), "button disable string should be .fa_align_center")
+        XCTAssertTrue(button.title(for: .normal) == String.fontAwesome(.fa_align_justify), "button normal string should be .fa_align_justify")
+        XCTAssertTrue(button.title(for: .selected) == String.fontAwesome(.fa_align_left), "button selected string should be .fa_align_left")
+        XCTAssertTrue(button.title(for: .highlighted) == String.fontAwesome(.fa_align_right), "button highlighted string should be .fa_align_right")
     }
 
     override func setUp() {
