@@ -2,10 +2,9 @@ FontAwesomeKit.Swift
 ========
 😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍     
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/LICENSE)
-[![](https://img.shields.io/badge/Pod-v0.2.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
+[![](https://img.shields.io/badge/Pod-v0.3.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
-[![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 
 ![FontAwesome.otf 4.6.3](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/FontAwesomeKitExample.png)
@@ -32,7 +31,7 @@ Example
 
 #### Use `FontAwesomeKit.Swift` in Storyboard. 
  1. Set Custom class to `FontAwesomeButton` or `FontAwesomeLabel`
- 2. Set Awesome Unicode String in Attributes inspector, such as `f107` or `0xf107`  
+ 2. Set unicode string in Attributes inspector for `FontAwesomeLabel` or set `normal`, `highlighted`, `selected`, `disabled` unicode string for `FontAwesomeButton`, such as `f107` or `0xf107`  
  // All awesome unicode --> http://fontawesome.io/cheatsheet/
 
 
