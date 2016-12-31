@@ -26,6 +26,50 @@ import Foundation
 
 public enum FontAwesomeType: unichar {
 
+    /// 4.7.0
+    case fa_address_book = 0xf2b9
+    case fa_address_book_o = 0xf2ba
+    case fa_address_card = 0xf2bb
+    case fa_address_card_o = 0xf2bc
+    case fa_bandcamp = 0xf2d5
+    case fa_bath = 0xf2cd
+    case fa_drivers_license = 0xf2c2
+    case fa_drivers_license_o = 0xf2c3
+    case fa_eercast = 0xf2da
+    case fa_envelope_open = 0xf2b6
+    case fa_envelope_open_o = 0xf2b7
+    case fa_etsy = 0xf2d7
+    case fa_free_code_camp = 0xf2c5
+    case fa_grav = 0xf2d6
+    case fa_handshake_o = 0xf2b5
+    case fa_id_badge = 0xf2c1
+    case fa_imdb = 0xf2d8
+    case fa_linode = 0xf2b8
+    case fa_meetup = 0xf2e0
+    case fa_microchip = 0xf2db
+    case fa_podcast = 0xf2ce
+    case fa_quora = 0xf2c4
+    case fa_ravelry = 0xf2d9
+    case fa_shower = 0xf2cc
+    case fa_snowflake_o = 0xf2dc
+    case fa_superpowers = 0xf2dd
+    case fa_telegram = 0xf2c6
+    case fa_thermometer = 0xf2c7
+    case fa_thermometer_empty = 0xf2cb
+    case fa_thermometer_half = 0xf2c9
+    case fa_thermometer_quarter = 0xf2ca
+    case fa_thermometer_three_quarters = 0xf2c8
+    case fa_times_rectangle = 0xf2d3
+    case fa_times_rectangle_o = 0xf2d4
+    case fa_user_circle = 0xf2bd
+    case fa_user_circle_o = 0xf2be
+    case fa_user_o = 0xf2c0
+    case fa_window_maximize = 0xf2d0
+    case fa_window_minimize = 0xf2d1
+    case fa_window_restore = 0xf2d2
+    case fa_wpexplorer = 0xf2de
+
+    /// old
     case fa_500px = 0xf26e
     case fa_adjust = 0xf042
     case fa_adn = 0xf170

@@ -64,6 +64,12 @@ class FontAwesomeKitTests: XCTestCase {
         XCTAssertTrue(button.title(for: .selected) == String.fontAwesome(.fa_align_left), "button selected string should be .fa_align_left")
         XCTAssertTrue(button.title(for: .highlighted) == String.fontAwesome(.fa_align_right), "button highlighted string should be .fa_align_right")
     }
+    func test470() {
+        let label = UILabel()
+        label.fa_text = .fa_address_book
+        label.font = UIFont(fa_fontSize: 50)
+        XCTAssert(label.text == String.fontAwesome(undefined: 0xf2b9), "label for 4.7.0 will be correctly.")
+    }
 
     override func setUp() {
         super.setUp()
