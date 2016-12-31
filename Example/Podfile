@@ -3,6 +3,6 @@
 
 target 'Example' do
   use_frameworks!
-  pod 'FontAwesomeKit.Swift', '~> 0.2.0’
+  pod 'FontAwesomeKit.Swift', '~> 0.3.1’
  
 end

@@ -1,12 +1,12 @@
 PODS:
-  - FontAwesomeKit.Swift (0.2.0)
+  - FontAwesomeKit.Swift (0.3.1)
 
 DEPENDENCIES:
-  - FontAwesomeKit.Swift (~> 0.2.0)
+  - FontAwesomeKit.Swift (~> 0.3.1)
 
 SPEC CHECKSUMS:
-  FontAwesomeKit.Swift: 56a4aa7b7ce7b78d9c38d343607e699079e25298
+  FontAwesomeKit.Swift: 77fd566e8c20d3267da18161a10c48a31b9323b9
 
-PODFILE CHECKSUM: 29dfd9b6a41ffa301bb24256c675f5de6146db7a
+PODFILE CHECKSUM: 66cdfcef799eeab6397cbbae623c914a9faaae98
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.1.1

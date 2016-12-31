@@ -2,10 +2,9 @@ FontAwesomeKit.Swift
 ========
 😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍     
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/LICENSE)
-[![](https://img.shields.io/badge/Pod-v0.2.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
+[![](https://img.shields.io/badge/Pod-v0.3.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
-[![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 
 ![FontAwesome.otf 4.6.3](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/FontAwesomeKitExample.png)
@@ -32,7 +31,7 @@ Example
 
 #### Use `FontAwesomeKit.Swift` in Storyboard. 
  1. Set Custom class to `FontAwesomeButton` or `FontAwesomeLabel`
- 2. Set Awesome Unicode String in Attributes inspector  
+ 2. Set unicode string in Attributes inspector for `FontAwesomeLabel` or set `normal`, `highlighted`, `selected`, `disabled` unicode string for `FontAwesomeButton`, such as `f107` or `0xf107`  
  // All awesome unicode --> http://fontawesome.io/cheatsheet/
 
 
@@ -52,9 +51,8 @@ The attrStr2 will get icon.![](http://7xk67j.com1.z0.glb.clouddn.com/github.png)
 ```
 let label = UILabel()
 label.fa_text = .fa_apple
-label.fa_font = UIFont(fa_fontSize: 100)
+label.font = UIFont(fa_fontSize: 100)
 /// fa_text : FontAwesomeType.
-/// fa_font : set the font size.
 ```
 #### Use `FontAwesomeKit.Swift` with UIButton.
 ```
@@ -62,7 +60,7 @@ let button = UIButton(type: .custom)
 button.fa_setTitle(.fa_gift, for: .normal)
 /// type : The fontAwesome type, and you don’t need to ‘setImage’ or ‘setBackgroundImage’
 /// state : The state that uses the specified title. The possible values are described in UIControlState.
-button.titleLabel?.fa_font = UIFont(fa_fontSize: 50)
+button.titleLabel?.font = UIFont(fa_fontSize: 50)
 ```
 #### Use `FontAwesomeKit.Swift` with UIImage.
 ```
@@ -92,6 +90,6 @@ Thanks
 
 About me
 ========
-A student in Xidian university.  
-Looking for a iOS job now, glad to every oppotunity. If you can offer me, [contact me anytime!](mailto:qiuncheng@gmail.com)  
+A student in Xidian university. [MY RESUME](http://qiuncheng.com/resume.html).   
+Looking for a iOS job now, glad to every oppotunity.  If you can offer me, [contact me anytime!](mailto:qiuncheng@gmail.com)  
 If you have a new idea about this project, [contact me anytime!](mailto:qiuncheng@gmail.com) OR pull request.

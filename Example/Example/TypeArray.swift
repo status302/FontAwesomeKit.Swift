@@ -12,9 +12,9 @@ struct Types {
     static let types: [FontAwesomeType] = [
         FontAwesomeType.fa_500px,
 
-        FontAwesomeType.fa_adjust,
+        FontAwesomeType.fa_address_book,
 
-        FontAwesomeType.fa_adn,
+        FontAwesomeType.fa_address_card,
 
         FontAwesomeType.fa_align_center,
 
