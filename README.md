@@ -81,7 +81,7 @@ LICENCE
 ========
 Under [MIT License](https://github.com/qiuncheng/FontAwesomeKit.Swift/blob/master/LICENSE)
 
-Copyright (c) 2016 [QiunCheng](http://qiuncheng.com). All rights reserved.
+Copyright (c) 2016 QiunCheng. All rights reserved.
 
 Thanks
 ========
@@ -90,6 +90,6 @@ Thanks
 
 About me
 ========
-A student in Xidian university. [MY RESUME](http://qiuncheng.com/resume.html).   
-Looking for a iOS job now, glad to every oppotunity.  If you can offer me, [contact me anytime!](mailto:qiuncheng@gmail.com)  
-If you have a new idea about this project, [contact me anytime!](mailto:qiuncheng@gmail.com) OR pull request.
+A student in Xidian University. [MY RESUME](http://qiuncheng.github.io/resume.html).   
+Looking for a job of iOS Dev now, glad to every opportunity.  If you can offer me, [please contact me anytime!](mailto:qiuncheng@gmail.com)  
+If you have a new idea about this project, [please let me know.](mailto:qiuncheng@gmail.com) OR pull request.
