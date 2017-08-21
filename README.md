@@ -87,9 +87,3 @@ Thanks
 ========
 1. [The FontAwesome Unicode list.](http://fontawesome.io/cheatsheet/) From fontawesome.io
 2. [The Lastest(version4.7.0) FontAwesome.otf bundle](http://fontawesome.io/assets/font-awesome-4.7.0.zip)
-
-About me
-========
-A student in Xidian University. [MY RESUME](http://qiuncheng.github.io/resume.html).   
-Looking for a job of iOS Dev now, glad to every opportunity.  If you can offer me, [please contact me anytime!](mailto:qiuncheng@gmail.com)  
-If you have a new idea about this project, [please let me know.](mailto:qiuncheng@gmail.com) OR pull request.
