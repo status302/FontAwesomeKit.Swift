@@ -33,8 +33,8 @@ class FontAwesomeKitTests: XCTestCase {
     }
     func testBarButtonItemTitle() {
         let barItem = UIBarButtonItem()
-        let attrs = [NSFontAttributeName: UIFont(fa_fontSize: 100)]
-        barItem.setTitleTextAttributes(attrs, for: .normal)
+        let attrs = [NSAttributedStringKey.font: UIFont(fa_fontSize: 100)]
+        barItem.setTitleTextAttributes(attrs as Any , for: .normal)
         barItem.title = String.fontAwesome(.fa_git)
         XCTAssertEqual(barItem.title, String(format: "%C", 0xf1d3))
     }

@@ -73,10 +73,10 @@ extension FontAwesomeAble where Self: UIButton {
 extension String {
     func fa_substring(from: Int) -> String {
         let index = self.index(self.startIndex, offsetBy: from)
-        return self.substring(from: index)
+        return String(self[index ..< endIndex])
     }
     func fa_substring(to: Int) -> String {
         let index = self.index(self.startIndex, offsetBy: to)
-        return self.substring(to: index)
+        return String(self[startIndex ..< index])
     }
 }
