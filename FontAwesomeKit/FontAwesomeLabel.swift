@@ -9,8 +9,9 @@ import UIKit
 
 
 @IBDesignable
-open class FontAwesomeLabel: UILabel, FontAwesomeAble{
+open class FontAwesomeLabel: UILabel, FontAwesomeAble {
 
+    /// unicode string you can set through UIStoryboard or xib.
     @IBInspectable
     public var unicode: String = "" {
         didSet {

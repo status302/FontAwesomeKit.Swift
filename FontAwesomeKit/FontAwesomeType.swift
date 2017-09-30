@@ -25,7 +25,6 @@
 import Foundation
 
 public enum FontAwesomeType: unichar {
-
     /// 4.7.0
     case fa_address_book = 0xf2b9
     case fa_address_book_o = 0xf2ba
@@ -68,7 +67,7 @@ public enum FontAwesomeType: unichar {
     case fa_window_minimize = 0xf2d1
     case fa_window_restore = 0xf2d2
     case fa_wpexplorer = 0xf2de
-
+    
     /// old
     case fa_500px = 0xf26e
     case fa_adjust = 0xf042
@@ -110,7 +109,7 @@ public enum FontAwesomeType: unichar {
     case fa_arrows_alt = 0xf0b2
     case fa_arrows_h = 0xf07e
     case fa_arrows_v = 0xf07d
-
+    
     case fa_assistive_listening_systems = 0xf2a2
     case fa_asterisk = 0xf069
     case fa_at = 0xf1fa
@@ -120,11 +119,11 @@ public enum FontAwesomeType: unichar {
     case fa_balance_scale = 0xf24e
     case fa_ban = 0xf05e
     case fa_bank = 0xf19c
-
+    
     case fa_bar_chart_o = 0xf080
     case fa_barcode = 0xf02a
     case fa_bars = 0xf0c9
-
+    
     case fa_battery_empty = 0xf244
     case fa_battery_full = 0xf240
     case fa_battery_half = 0xf242
@@ -156,7 +155,7 @@ public enum FontAwesomeType: unichar {
     case fa_bookmark_o = 0xf097
     case fa_braille = 0xf2a1
     case fa_briefcase = 0xf0b1
-
+    
     case fa_bug = 0xf188
     case fa_building = 0xf1ad
     case fa_building_o = 0xf0f7
@@ -174,7 +173,7 @@ public enum FontAwesomeType: unichar {
     case fa_calendar_times_o = 0xf273
     case fa_camera = 0xf030
     case fa_camera_retro = 0xf083
-
+    
     case fa_caret_down = 0xf0d7
     case fa_caret_left = 0xf0d9
     case fa_caret_right = 0xf0da
@@ -258,7 +257,7 @@ public enum FontAwesomeType: unichar {
     case fa_dashcube = 0xf210
     case fa_database = 0xf1c0
     case fa_deaf = 0xf2a4
-
+    
     case fa_dedent = 0xf03b
     case fa_delicious = 0xf1a5
     case fa_desktop = 0xf108
@@ -283,7 +282,7 @@ public enum FontAwesomeType: unichar {
     case fa_envira = 0xf299
     case fa_eraser = 0xf12d
     case fa_eur = 0xf153
-
+    
     case fa_exchange = 0xf0ec
     case fa_exclamation = 0xf12a
     case fa_exclamation_circle = 0xf06a
@@ -297,7 +296,7 @@ public enum FontAwesomeType: unichar {
     case fa_eyedropper = 0xf1fb
     case fa_fa = 0xf2b4
     case fa_facebook = 0xf09a
-
+    
     case fa_facebook_official = 0xf230
     case fa_facebook_square = 0xf082
     case fa_fast_backward = 0xf049
@@ -315,14 +314,14 @@ public enum FontAwesomeType: unichar {
     case fa_file_movie_o = 0xf1c8
     case fa_file_o = 0xf016
     case fa_file_pdf_o = 0xf1c1
-
+    
     case fa_file_powerpoint_o = 0xf1c4
-
+    
     case fa_file_text = 0xf15c
     case fa_file_text_o = 0xf0f6
-
+    
     case fa_file_word_o = 0xf1c2
-
+    
     case fa_film = 0xf008
     case fa_filter = 0xf0b0
     case fa_fire = 0xf06d
@@ -332,7 +331,7 @@ public enum FontAwesomeType: unichar {
     case fa_flag = 0xf024
     case fa_flag_checkered = 0xf11e
     case fa_flag_o = 0xf11d
-
+    
     case fa_flask = 0xf0c3
     case fa_flickr = 0xf16e
     case fa_floppy_o = 0xf0c7
@@ -341,7 +340,7 @@ public enum FontAwesomeType: unichar {
     case fa_folder_open = 0xf07c
     case fa_folder_open_o = 0xf115
     case fa_font = 0xf031
-
+    
     case fa_fonticons = 0xf280
     case fa_fort_awesome = 0xf286
     case fa_forumbee = 0xf211
@@ -352,7 +351,7 @@ public enum FontAwesomeType: unichar {
     case fa_gamepad = 0xf11b
     case fa_gavel = 0xf0e3
     case fa_gbp = 0xf154
-
+    
     case fa_genderless = 0xf22d
     case fa_get_pocket = 0xf265
     case fa_gg = 0xf260
@@ -372,11 +371,11 @@ public enum FontAwesomeType: unichar {
     case fa_google = 0xf1a0
     case fa_google_plus = 0xf0d5
     case fa_google_plus_circle = 0xf2b3
-
+    
     case fa_google_plus_square = 0xf0d4
     case fa_google_wallet = 0xf1ee
     case fa_graduation_cap = 0xf19d
-
+    
     case fa_group = 0xf0c0
     case fa_h_square = 0xf0fd
     case fa_hacker_news = 0xf1d4
@@ -389,10 +388,10 @@ public enum FontAwesomeType: unichar {
     case fa_hand_paper_o = 0xf256
     case fa_hand_peace_o = 0xf25b
     case fa_hand_pointer_o = 0xf25a
-
+    
     case fa_hand_scissors_o = 0xf257
     case fa_hand_spock_o = 0xf259
-
+    
     case fa_hashtag = 0xf292
     case fa_hdd_o = 0xf0a0
     case fa_header = 0xf1dc
@@ -403,14 +402,14 @@ public enum FontAwesomeType: unichar {
     case fa_history = 0xf1da
     case fa_home = 0xf015
     case fa_hospital_o = 0xf0f8
-
+    
     case fa_hourglass = 0xf254
     case fa_hourglass_1 = 0xf251
     case fa_hourglass_2 = 0xf252
     case fa_hourglass_3 = 0xf253
-
+    
     case fa_hourglass_o = 0xf250
-
+    
     case fa_houzz = 0xf27c
     case fa_html5 = 0xf13b
     case fa_i_cursor = 0xf246
@@ -423,13 +422,13 @@ public enum FontAwesomeType: unichar {
     case fa_info_circle = 0xf05a
     case fa_inr = 0xf156
     case fa_instagram = 0xf16d
-
+    
     case fa_internet_explorer = 0xf26b
     case fa_intersex = 0xf224
     case fa_ioxhost = 0xf208
     case fa_italic = 0xf033
     case fa_joomla = 0xf1aa
-
+    
     case fa_jsfiddle = 0xf1cc
     case fa_key = 0xf084
     case fa_keyboard_o = 0xf11c
@@ -440,15 +439,15 @@ public enum FontAwesomeType: unichar {
     case fa_lastfm_square = 0xf203
     case fa_leaf = 0xf06c
     case fa_leanpub = 0xf212
-
+    
     case fa_lemon_o = 0xf094
     case fa_level_down = 0xf149
     case fa_level_up = 0xf148
     case fa_life_bouy = 0xf1cd
-
+    
     case fa_lightbulb_o = 0xf0eb
     case fa_line_chart = 0xf201
-
+    
     case fa_linkedin = 0xf0e1
     case fa_linkedin_square = 0xf08c
     case fa_linux = 0xf17c
@@ -493,15 +492,15 @@ public enum FontAwesomeType: unichar {
     case fa_minus_square_o = 0xf147
     case fa_mixcloud = 0xf289
     case fa_mobile = 0xf10b
-
+    
     case fa_modx = 0xf285
     case fa_money = 0xf0d6
     case fa_moon_o = 0xf186
-
+    
     case fa_motorcycle = 0xf21c
     case fa_mouse_pointer = 0xf245
     case fa_music = 0xf001
-
+    
     case fa_neuter = 0xf22c
     case fa_newspaper_o = 0xf1ea
     case fa_object_group = 0xf247
@@ -512,14 +511,14 @@ public enum FontAwesomeType: unichar {
     case fa_openid = 0xf19b
     case fa_opera = 0xf26a
     case fa_optin_monster = 0xf23c
-
+    
     case fa_pagelines = 0xf18c
     case fa_paint_brush = 0xf1fc
     case fa_paper_plane = 0xf1d8
     case fa_paper_plane_o = 0xf1d9
     case fa_paperclip = 0xf0c6
     case fa_paragraph = 0xf1dd
-
+    
     case fa_pause = 0xf04c
     case fa_pause_circle = 0xf28b
     case fa_pause_circle_o = 0xf28c
@@ -527,11 +526,11 @@ public enum FontAwesomeType: unichar {
     case fa_paypal = 0xf1ed
     case fa_pencil = 0xf040
     case fa_pencil_square = 0xf14b
-
+    
     case fa_percent = 0xf295
     case fa_phone = 0xf095
     case fa_phone_square = 0xf098
-
+    
     case fa_pie_chart = 0xf200
     case fa_pied_piper = 0xf2ae
     case fa_pied_piper_alt = 0xf1a8
@@ -561,43 +560,43 @@ public enum FontAwesomeType: unichar {
     case fa_quote_right = 0xf10e
     case fa_ra = 0xf1d0
     case fa_random = 0xf074
-
+    
     case fa_recycle = 0xf1b8
     case fa_reddit = 0xf1a1
     case fa_reddit_alien = 0xf281
     case fa_reddit_square = 0xf1a2
     case fa_refresh = 0xf021
     case fa_registered = 0xf25d
-
+    
     case fa_renren = 0xf18b
-
+    
     case fa_repeat = 0xf01e
-
+    
     case fa_retweet = 0xf079
-
+    
     case fa_road = 0xf018
     case fa_rocket = 0xf135
     case fa_rotate_left = 0xf0e2
-
+    
     case fa_rouble = 0xf158
-
+    
     case fa_rss_square = 0xf143
-
+    
     case fa_safari = 0xf267
-
+    
     case fa_scribd = 0xf28a
     case fa_search = 0xf002
     case fa_search_minus = 0xf010
     case fa_search_plus = 0xf00e
     case fa_sellsy = 0xf213
-
+    
     case fa_server = 0xf233
-
+    
     case fa_share_alt = 0xf1e0
     case fa_share_alt_square = 0xf1e1
     case fa_share_square = 0xf14d
     case fa_share_square_o = 0xf045
-
+    
     case fa_shield = 0xf132
     case fa_ship = 0xf21a
     case fa_shirtsinbulk = 0xf214
@@ -608,7 +607,7 @@ public enum FontAwesomeType: unichar {
     case fa_sign_language = 0xf2a7
     case fa_sign_out = 0xf08b
     case fa_signal = 0xf012
-
+    
     case fa_simplybuilt = 0xf215
     case fa_sitemap = 0xf0e8
     case fa_skyatlas = 0xf216
@@ -620,7 +619,7 @@ public enum FontAwesomeType: unichar {
     case fa_snapchat = 0xf2ab
     case fa_snapchat_ghost = 0xf2ac
     case fa_snapchat_square = 0xf2ad
-
+    
     case fa_sort = 0xf0dc
     case fa_sort_alpha_asc = 0xf15d
     case fa_sort_alpha_desc = 0xf15e
@@ -628,10 +627,10 @@ public enum FontAwesomeType: unichar {
     case fa_sort_amount_desc = 0xf161
     case fa_sort_asc = 0xf0de
     case fa_sort_desc = 0xf0dd
-
+    
     case fa_sort_numeric_asc = 0xf162
     case fa_sort_numeric_desc = 0xf163
-
+    
     case fa_soundcloud = 0xf1be
     case fa_space_shuttle = 0xf197
     case fa_spinner = 0xf110
@@ -644,7 +643,7 @@ public enum FontAwesomeType: unichar {
     case fa_star = 0xf005
     case fa_star_half = 0xf089
     case fa_star_half_empty = 0xf123
-
+    
     case fa_star_o = 0xf006
     case fa_steam = 0xf1b6
     case fa_steam_square = 0xf1b7
@@ -665,14 +664,14 @@ public enum FontAwesomeType: unichar {
     case fa_suitcase = 0xf0f2
     case fa_sun_o = 0xf185
     case fa_superscript = 0xf12b
-
+    
     case fa_table = 0xf0ce
     case fa_tablet = 0xf10a
-
+    
     case fa_tag = 0xf02b
     case fa_tags = 0xf02c
     case fa_tasks = 0xf0ae
-
+    
     case fa_television = 0xf26c
     case fa_tencent_weibo = 0xf1d5
     case fa_terminal = 0xf120
@@ -688,17 +687,17 @@ public enum FontAwesomeType: unichar {
     case fa_thumbs_o_up = 0xf087
     case fa_thumbs_up = 0xf164
     case fa_ticket = 0xf145
-
+    
     case fa_times_circle = 0xf057
     case fa_times_circle_o = 0xf05c
     case fa_tint = 0xf043
-
+    
     case fa_toggle_off = 0xf204
     case fa_toggle_on = 0xf205
-
+    
     case fa_trademark = 0xf25c
     case fa_train = 0xf238
-
+    
     case fa_transgender_alt = 0xf225
     case fa_trash = 0xf1f8
     case fa_trash_o = 0xf014
@@ -711,27 +710,27 @@ public enum FontAwesomeType: unichar {
     case fa_tty = 0xf1e4
     case fa_tumblr = 0xf173
     case fa_tumblr_square = 0xf174
-
+    
     case fa_twitch = 0xf1e8
     case fa_twitter = 0xf099
     case fa_twitter_square = 0xf081
     case fa_umbrella = 0xf0e9
     case fa_underline = 0xf0cd
-
+    
     case fa_universal_access = 0xf29a
-
+    
     case fa_unlock = 0xf09c
     case fa_unlock_alt = 0xf13e
-
+    
     case fa_upload = 0xf093
     case fa_usb = 0xf287
-
+    
     case fa_user = 0xf007
     case fa_user_md = 0xf0f0
     case fa_user_plus = 0xf234
     case fa_user_secret = 0xf21b
     case fa_user_times = 0xf235
-
+    
     case fa_venus = 0xf221
     case fa_venus_double = 0xf226
     case fa_venus_mars = 0xf228
@@ -747,17 +746,17 @@ public enum FontAwesomeType: unichar {
     case fa_volume_down = 0xf027
     case fa_volume_off = 0xf026
     case fa_volume_up = 0xf028
-
+    
     case fa_wechat = 0xf1d7
     case fa_weibo = 0xf18a
-
+    
     case fa_whatsapp = 0xf232
     case fa_wheelchair = 0xf193
     case fa_wheelchair_alt = 0xf29b
     case fa_wifi = 0xf1eb
     case fa_wikipedia_w = 0xf266
     case fa_windows = 0xf17a
-
+    
     case fa_wordpress = 0xf19a
     case fa_wpbeginner = 0xf297
     case fa_wpforms = 0xf298
@@ -772,6 +771,5 @@ public enum FontAwesomeType: unichar {
     case fa_youtube = 0xf167
     case fa_youtube_play = 0xf16a
     case fa_youtube_square = 0xf166
-    
     
 }

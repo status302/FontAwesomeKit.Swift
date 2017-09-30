@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5233311F7F404500E7CAF6 /* FontAwesomeKit+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5233301F7F404500E7CAF6 /* FontAwesomeKit+String.swift */; };
+		3F5233331F7F434000E7CAF6 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5233321F7F434000E7CAF6 /* FontLoader.swift */; };
+		3F5233351F7F490E00E7CAF6 /* FontAwesomeType+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5233341F7F490E00E7CAF6 /* FontAwesomeType+String.swift */; };
+		3F5DE5CD1F7D5E8200EC1144 /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE5CC1F7D5E8200EC1144 /* FontAwesomeKit.swift */; };
 		868325341E17FD1C001C5DDB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868325331E17FD1C001C5DDB /* FontAwesome.otf */; };
 		868F6E761DB2842A0077D257 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */; };
 		868F6E7B1DB2842A0077D257 /* FontAwesomeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E7A1DB2842A0077D257 /* FontAwesomeKitTests.swift */; };
 		868F6E7D1DB2842A0077D257 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		868F6E891DB284E00077D257 /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E871DB284E00077D257 /* FontAwesomeKit.swift */; };
-		868F6E8B1DB285220077D257 /* FontAwesomeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */; };
+		868F6E891DB284E00077D257 /* FontAwesomeKit+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E871DB284E00077D257 /* FontAwesomeKit+UIKit.swift */; };
+		868F6E8B1DB285220077D257 /* FontAwesomeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E8A1DB285220077D257 /* FontAwesomeType.swift */; };
 		86BFF23E1DD0DAE900AB0370 /* FontAwesomeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFF23B1DD0DAE900AB0370 /* FontAwesomeLabel.swift */; };
 		86BFF23F1DD0DAE900AB0370 /* FontAwesomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFF23C1DD0DAE900AB0370 /* FontAwesomeButton.swift */; };
 		86BFF2401DD0DAE900AB0370 /* FontAwesomeAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BFF23D1DD0DAE900AB0370 /* FontAwesomeAble.swift */; };
@@ -29,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5233301F7F404500E7CAF6 /* FontAwesomeKit+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontAwesomeKit+String.swift"; sourceTree = "<group>"; };
+		3F5233321F7F434000E7CAF6 /* FontLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
+		3F5233341F7F490E00E7CAF6 /* FontAwesomeType+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontAwesomeType+String.swift"; sourceTree = "<group>"; };
+		3F5DE5CC1F7D5E8200EC1144 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
 		868325331E17FD1C001C5DDB /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
@@ -36,8 +44,8 @@
 		868F6E751DB2842A0077D257 /* FontAwesomeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F6E7A1DB2842A0077D257 /* FontAwesomeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKitTests.swift; sourceTree = "<group>"; };
 		868F6E7C1DB2842A0077D257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		868F6E871DB284E00077D257 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
-		868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeEnum.swift; sourceTree = "<group>"; };
+		868F6E871DB284E00077D257 /* FontAwesomeKit+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FontAwesomeKit+UIKit.swift"; sourceTree = "<group>"; };
+		868F6E8A1DB285220077D257 /* FontAwesomeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeType.swift; sourceTree = "<group>"; };
 		86BFF23B1DD0DAE900AB0370 /* FontAwesomeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeLabel.swift; sourceTree = "<group>"; };
 		86BFF23C1DD0DAE900AB0370 /* FontAwesomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeButton.swift; sourceTree = "<group>"; };
 		86BFF23D1DD0DAE900AB0370 /* FontAwesomeAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeAble.swift; sourceTree = "<group>"; };
@@ -84,12 +92,16 @@
 			isa = PBXGroup;
 			children = (
 				868325331E17FD1C001C5DDB /* FontAwesome.otf */,
-				868F6E871DB284E00077D257 /* FontAwesomeKit.swift */,
-				868F6E8A1DB285220077D257 /* FontAwesomeEnum.swift */,
+				868F6E871DB284E00077D257 /* FontAwesomeKit+UIKit.swift */,
+				3F5DE5CC1F7D5E8200EC1144 /* FontAwesomeKit.swift */,
+				868F6E8A1DB285220077D257 /* FontAwesomeType.swift */,
 				868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */,
 				86BFF23B1DD0DAE900AB0370 /* FontAwesomeLabel.swift */,
 				86BFF23C1DD0DAE900AB0370 /* FontAwesomeButton.swift */,
 				86BFF23D1DD0DAE900AB0370 /* FontAwesomeAble.swift */,
+				3F5233301F7F404500E7CAF6 /* FontAwesomeKit+String.swift */,
+				3F5233341F7F490E00E7CAF6 /* FontAwesomeType+String.swift */,
+				3F5233321F7F434000E7CAF6 /* FontLoader.swift */,
 				868F6E701DB2842A0077D257 /* Info.plist */,
 			);
 			path = FontAwesomeKit;
@@ -218,11 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5233351F7F490E00E7CAF6 /* FontAwesomeType+String.swift in Sources */,
 				86BFF2401DD0DAE900AB0370 /* FontAwesomeAble.swift in Sources */,
+				3F5233331F7F434000E7CAF6 /* FontLoader.swift in Sources */,
 				86BFF23E1DD0DAE900AB0370 /* FontAwesomeLabel.swift in Sources */,
-				868F6E891DB284E00077D257 /* FontAwesomeKit.swift in Sources */,
+				868F6E891DB284E00077D257 /* FontAwesomeKit+UIKit.swift in Sources */,
+				3F5233311F7F404500E7CAF6 /* FontAwesomeKit+String.swift in Sources */,
+				3F5DE5CD1F7D5E8200EC1144 /* FontAwesomeKit.swift in Sources */,
 				86BFF23F1DD0DAE900AB0370 /* FontAwesomeButton.swift in Sources */,
-				868F6E8B1DB285220077D257 /* FontAwesomeEnum.swift in Sources */,
+				868F6E8B1DB285220077D257 /* FontAwesomeType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiuncheng.FontAwesomeKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -432,7 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiuncheng.FontAwesomeKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
