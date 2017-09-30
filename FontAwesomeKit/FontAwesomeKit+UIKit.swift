@@ -24,6 +24,36 @@
 
 import UIKit
 
+extension UIFont: FontAwesomeCompatiable { }
+
+public extension FontAwesomeKit where Base: UIFont {
+    /// Use this method to change font size, that you create from `UIFont.fa?`.
+    ///
+    /// - Parameter size: new size you want to set.
+    /// - Returns: new `UIFont`.
+    @discardableResult
+    public func fontSize(_ size: CGFloat) -> UIFont {
+        return base.withSize(size)
+    }
+}
+
+public extension UIFont {
+    
+    /// Create a new `UIFont` use `UIFont.fa`
+    public static var fa: FontAwesomeKit<UIFont>? {
+        let name = FontAwesomeCommon.kFontAwesome
+        if UIFont.fontNames(forFamilyName: name).isEmpty {
+            FontLoader.loadFont(name)
+        }
+        if let font = UIFont(name: name, size: 17) {
+            return FontAwesomeKit(font)
+        }
+        else {
+            return nil
+        }
+    }
+}
+
 extension UIImage: FontAwesomeCompatiable { }
 
 public extension UIImage {
@@ -53,48 +83,18 @@ public extension UIImage {
     /// - parameter tintColor: The UIImage filled color you get, default is UIColor.lightGray.
     ///
     /// - returns: The image you will get, default size is (80, 80).
-    public convenience init?(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 80, color tintColor: UIColor = UIColor.lightGray) {
+    public convenience init?(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 80, textColor color: UIColor = UIColor.lightGray) {
 
         let imageLabel = UILabel()
         imageLabel.fa.text = type
         imageLabel.font = UIFont.fa?.fontSize(fontSize)
-        imageLabel.textColor = tintColor
+        imageLabel.textColor = color
         imageLabel.sizeToFit()
         let image = UIImage.image(with: imageLabel)
         guard let img = image?.cgImage else {
             return nil
         }
         self.init(cgImage: img)
-    }
-}
-
-extension UIFont: FontAwesomeCompatiable { }
-
-public extension FontAwesomeKit where Base: UIFont {
-    /// Use this method to change font size, that you create from `UIFont.fa?`.
-    ///
-    /// - Parameter size: new size you want to set.
-    /// - Returns: new `UIFont`.
-    @discardableResult
-    public func fontSize(_ size: CGFloat) -> UIFont {
-        return base.withSize(size)
-    }
-}
-
-public extension UIFont {
-    
-    /// Create a new `UIFont` use `UIFont.fa`
-    public static var fa: FontAwesomeKit<UIFont>? {
-        let name = FontAwesomeCommon.kFontAwesome
-        if UIFont.fontNames(forFamilyName: name).isEmpty {
-            FontLoader.loadFont(name)
-        }
-        if let font = UIFont(name: name, size: 17) {
-            return FontAwesomeKit(font)
-        }
-        else {
-            return nil
-        }
     }
 }
 
