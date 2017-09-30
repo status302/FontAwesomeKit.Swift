@@ -47,6 +47,9 @@
 		3FCC1BA61F80143400BB38DF /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
 		3FCC1BA81F8015A000BB38DF /* UILabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
 		3FCC1BAA1F8015F600BB38DF /* UIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonTests.swift; sourceTree = "<group>"; };
+		3FCC1BAC1F8016B600BB38DF /* FontAwesomeKit.Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FontAwesomeKit.Swift.podspec; sourceTree = "<group>"; };
+		3FCC1BAD1F8016C000BB38DF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3FCC1BAE1F8016C700BB38DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		868325331E17FD1C001C5DDB /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
@@ -83,6 +86,9 @@
 		868F6E621DB2842A0077D257 = {
 			isa = PBXGroup;
 			children = (
+				3FCC1BAE1F8016C700BB38DF /* README.md */,
+				3FCC1BAD1F8016C000BB38DF /* LICENSE */,
+				3FCC1BAC1F8016B600BB38DF /* FontAwesomeKit.Swift.podspec */,
 				868F6E6E1DB2842A0077D257 /* FontAwesomeKit */,
 				868F6E791DB2842A0077D257 /* FontAwesomeKitTests */,
 				868F6E6D1DB2842A0077D257 /* Products */,
