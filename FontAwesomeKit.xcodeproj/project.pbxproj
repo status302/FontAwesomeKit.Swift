@@ -11,6 +11,11 @@
 		3F5233331F7F434000E7CAF6 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5233321F7F434000E7CAF6 /* FontLoader.swift */; };
 		3F5233351F7F490E00E7CAF6 /* FontAwesomeType+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5233341F7F490E00E7CAF6 /* FontAwesomeType+String.swift */; };
 		3F5DE5CD1F7D5E8200EC1144 /* FontAwesomeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5DE5CC1F7D5E8200EC1144 /* FontAwesomeKit.swift */; };
+		3FCC1BA31F80109200BB38DF /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC1BA21F80109200BB38DF /* StringTests.swift */; };
+		3FCC1BA51F8012DB00BB38DF /* FontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC1BA41F8012DB00BB38DF /* FontTests.swift */; };
+		3FCC1BA71F80143400BB38DF /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC1BA61F80143400BB38DF /* UIImageTests.swift */; };
+		3FCC1BA91F8015A000BB38DF /* UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC1BA81F8015A000BB38DF /* UILabelTests.swift */; };
+		3FCC1BAB1F8015F600BB38DF /* UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC1BAA1F8015F600BB38DF /* UIButtonTests.swift */; };
 		868325341E17FD1C001C5DDB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868325331E17FD1C001C5DDB /* FontAwesome.otf */; };
 		868F6E761DB2842A0077D257 /* FontAwesomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */; };
 		868F6E7B1DB2842A0077D257 /* FontAwesomeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F6E7A1DB2842A0077D257 /* FontAwesomeKitTests.swift */; };
@@ -37,6 +42,11 @@
 		3F5233321F7F434000E7CAF6 /* FontLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLoader.swift; sourceTree = "<group>"; };
 		3F5233341F7F490E00E7CAF6 /* FontAwesomeType+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontAwesomeType+String.swift"; sourceTree = "<group>"; };
 		3F5DE5CC1F7D5E8200EC1144 /* FontAwesomeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeKit.swift; sourceTree = "<group>"; };
+		3FCC1BA21F80109200BB38DF /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		3FCC1BA41F8012DB00BB38DF /* FontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTests.swift; sourceTree = "<group>"; };
+		3FCC1BA61F80143400BB38DF /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
+		3FCC1BA81F8015A000BB38DF /* UILabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
+		3FCC1BAA1F8015F600BB38DF /* UIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonTests.swift; sourceTree = "<group>"; };
 		868325331E17FD1C001C5DDB /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		868F6E6C1DB2842A0077D257 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F6E6F1DB2842A0077D257 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeKit.h; sourceTree = "<group>"; };
@@ -111,6 +121,11 @@
 			isa = PBXGroup;
 			children = (
 				868F6E7A1DB2842A0077D257 /* FontAwesomeKitTests.swift */,
+				3FCC1BA21F80109200BB38DF /* StringTests.swift */,
+				3FCC1BA41F8012DB00BB38DF /* FontTests.swift */,
+				3FCC1BA61F80143400BB38DF /* UIImageTests.swift */,
+				3FCC1BA81F8015A000BB38DF /* UILabelTests.swift */,
+				3FCC1BAA1F8015F600BB38DF /* UIButtonTests.swift */,
 				868F6E7C1DB2842A0077D257 /* Info.plist */,
 			);
 			path = FontAwesomeKitTests;
@@ -246,6 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCC1BA31F80109200BB38DF /* StringTests.swift in Sources */,
+				3FCC1BAB1F8015F600BB38DF /* UIButtonTests.swift in Sources */,
+				3FCC1BA91F8015A000BB38DF /* UILabelTests.swift in Sources */,
+				3FCC1BA71F80143400BB38DF /* UIImageTests.swift in Sources */,
+				3FCC1BA51F8012DB00BB38DF /* FontTests.swift in Sources */,
 				868F6E7B1DB2842A0077D257 /* FontAwesomeKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
