@@ -27,7 +27,7 @@ class FontLoader {
         do {
             let data = try Data(contentsOf: fontURL)
             guard let provider = CGDataProvider(data: data as CFData) else {
-                    return
+                return
             }
             let font: CGFont
             #if swift(>=3.2)
