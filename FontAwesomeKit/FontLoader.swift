@@ -24,16 +24,21 @@ class FontLoader {
             fontURL = bundle.url(forResource: name, withExtension: "otf")!
         }
         
-        let data = try! Data(contentsOf: fontURL)
-        
-        let provider = CGDataProvider(data: data as CFData)
-        let font = CGFont(provider!)
-        
-        var error: Unmanaged<CFError>?
-        if !CTFontManagerRegisterGraphicsFont(font!, &error) {
-            let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
-            let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
-            NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
+        do {
+            let data = try Data(contentsOf: fontURL)
+            guard let provider = CGDataProvider(data: data as CFData),
+                let font = CGFont(provider) else {
+                    return
+            }
+            var error: Unmanaged<CFError>?
+            if !CTFontManagerRegisterGraphicsFont(font, &error) {
+                let errorDescription: CFString = CFErrorCopyDescription(error!.takeUnretainedValue())
+                let nsError = error!.takeUnretainedValue() as AnyObject as! NSError
+                NSException(name: NSExceptionName.internalInconsistencyException, reason: errorDescription as String, userInfo: [NSUnderlyingErrorKey: nsError]).raise()
+            }
+        }
+        catch {
+            return
         }
     }
 }
