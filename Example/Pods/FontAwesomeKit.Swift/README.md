@@ -2,17 +2,17 @@ FontAwesomeKit.Swift
 ========
 😀😘A better choice for iOS Developer to use FontAwesome Icon with UI.😍     
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/LICENSE)
-[![](https://img.shields.io/badge/Pod-v0.3.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
+[![](https://img.shields.io/badge/Pod-v0.4.0-brightgreen.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 
-![FontAwesome.otf 4.6.3](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/FontAwesomeKitExample.png)
+![FontAwesome.otf 4.7.0](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/FontAwesomeKitExample.png)
 
 Support
 ========
 Swift 3.0 & iOS 8.0+   
-FontAwesome 4.6.3  
+FontAwesome 4.7.0  
 Storyboard Now.
 
 Installation
@@ -81,15 +81,9 @@ LICENCE
 ========
 Under [MIT License](https://github.com/qiuncheng/FontAwesomeKit.Swift/blob/master/LICENSE)
 
-Copyright (c) 2016 [QiunCheng](http://qiuncheng.com). All rights reserved.
+Copyright (c) 2016 QiunCheng. All rights reserved.
 
 Thanks
 ========
 1. [The FontAwesome Unicode list.](http://fontawesome.io/cheatsheet/) From fontawesome.io
-2. [The Lastest(version4.6.3) FontAwesome.otf bundle](http://fontawesome.io/assets/font-awesome-4.6.3.zip)
-
-About me
-========
-A student in Xidian university. [MY RESUME](http://qiuncheng.com/resume.html).   
-Looking for a iOS job now, glad to every oppotunity.  If you can offer me, [contact me anytime!](mailto:qiuncheng@gmail.com)  
-If you have a new idea about this project, [contact me anytime!](mailto:qiuncheng@gmail.com) OR pull request.
+2. [The Lastest(version4.7.0) FontAwesome.otf bundle](http://fontawesome.io/assets/font-awesome-4.7.0.zip)

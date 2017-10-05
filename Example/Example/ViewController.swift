@@ -23,7 +23,7 @@ class ViewController: UITableViewController {
 
         let rightItem = UIBarButtonItem(awesomeType: .fa_android, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
         self.navigationItem.rightBarButtonItem = rightItem
-        self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .fa_apple, size: 10, color: UIColor.black))
+        self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .fa_apple, size: 10, textColor: UIColor.black))
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1

@@ -9,13 +9,15 @@ import UIKit
 @IBDesignable
 open class FontAwesomeButton: UIButton, FontAwesomeAble {
     
+    /// unicode string for UIButton's normal status you can set through UIStoryboard or xib.
     @IBInspectable
     public var normalUnicode: String = "" {
         didSet {
             configFontAwesomeButtonWithNormalState()
         }
     }
-
+    
+    /// unicode string for UIButton's highlighted status you can set through UIStoryboard or xib.
     @IBInspectable
     public var highlightedUnicode: String = "" {
         didSet {
@@ -23,6 +25,7 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
         }
     }
     
+    /// unicode string for UIButton's selected status you can set through UIStoryboard or xib.
     @IBInspectable
     public var selectedUnicode: String = "" {
         didSet {
@@ -30,6 +33,7 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
         }
     }
     
+    /// unicode string for UIButton's disabled status you can set through UIStoryboard or xib.
     @IBInspectable
     public var disabledUnicode: String = "" {
         didSet {
