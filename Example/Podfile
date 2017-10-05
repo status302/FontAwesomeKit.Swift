@@ -3,6 +3,6 @@
 
 target 'Example' do
   use_frameworks!
-  pod 'FontAwesomeKit.Swift'
+  pod 'FontAwesomeKit.Swift', :path => '../'
  
 end
