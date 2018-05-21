@@ -10,8 +10,13 @@ import UIKit
 
 extension String: FontAwesomeCompatiable {
     /// convenient property to create a empty `FontAwesomeKit("")`
-    static var fa: FontAwesomeKit<String> {
+    public static var fa: FontAwesomeKit<String> {
         return FontAwesomeKit("")
+    }
+    
+    /// convenient property to create a `FontAwesomeKit(self)`
+    public var fa: FontAwesomeKit<String> {
+        return FontAwesomeKit(self)
     }
 }
 

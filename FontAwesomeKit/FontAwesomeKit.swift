@@ -14,14 +14,14 @@ public protocol FontAwesomeCompatiable {
 }
 
 public extension FontAwesomeCompatiable {
-    var fa: FontAwesomeKit<Self> {
+    public var fa: FontAwesomeKit<Self> {
         get { return FontAwesomeKit(self) }
     }
 }
 
 public final class FontAwesomeKit<Base> {
-    let base: Base
-    init(_ base: Base) {
+    public let base: Base
+    public init(_ base: Base) {
         self.base = base
     }
 }
