@@ -35,10 +35,10 @@ class ViewController: UITableViewController {
         return tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
     }
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.textLabel?.fa_text = types[indexPath.row]
+        cell.textLabel?.fa.text = types[indexPath.row]
         cell.detailTextLabel?.text = names[indexPath.row]
     }
-    func pushToFontAwesomeStoryboard() {
+    @objc func pushToFontAwesomeStoryboard() {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FontAwesomeStoryboard")
         self.navigationController?.pushViewController(vc, animated: true)
     }
