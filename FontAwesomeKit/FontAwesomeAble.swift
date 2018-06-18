@@ -63,7 +63,7 @@ extension FontAwesomeAble where Self: UIButton {
         configFontAwesomeButtonWith(unicode: str, state: .normal)
     }
     
-    private func configFontAwesomeButtonWith(unicode: String, state: UIControlState) {
+    internal func configFontAwesomeButtonWith(unicode: String, state: UIControlState) {
         var str: String = unicode
         if str.hasPrefix("0x") {
             str = str.fa.substring(from: 2)

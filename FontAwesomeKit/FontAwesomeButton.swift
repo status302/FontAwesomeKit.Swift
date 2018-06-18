@@ -11,7 +11,7 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
     
     /// unicode string for UIButton's normal status you can set through UIStoryboard or xib.
     @IBInspectable
-    public var normalUnicode: String = "" {
+    open var normalUnicode: String = "" {
         didSet {
             configFontAwesomeButtonWithNormalState()
         }
@@ -19,7 +19,7 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
     
     /// unicode string for UIButton's highlighted status you can set through UIStoryboard or xib.
     @IBInspectable
-    public var highlightedUnicode: String = "" {
+    open var highlightedUnicode: String = "" {
         didSet {
             configFontAwesomeButtonWithHighlightedState()
         }
@@ -27,7 +27,7 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
     
     /// unicode string for UIButton's selected status you can set through UIStoryboard or xib.
     @IBInspectable
-    public var selectedUnicode: String = "" {
+    open var selectedUnicode: String = "" {
         didSet {
             configFontAwesomeButtonWithSelectedState()
         }
@@ -35,11 +35,11 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
     
     /// unicode string for UIButton's disabled status you can set through UIStoryboard or xib.
     @IBInspectable
-    public var disabledUnicode: String = "" {
+    open var disabledUnicode: String = "" {
         didSet {
             configFontAwesomeButtonWithDisableState()
         }
-    }
+  }
 
     override open func awakeFromNib() {
         super.awakeFromNib()
@@ -51,3 +51,5 @@ open class FontAwesomeButton: UIButton, FontAwesomeAble {
         configFontAwesomeButton()
     }
 }
+
+

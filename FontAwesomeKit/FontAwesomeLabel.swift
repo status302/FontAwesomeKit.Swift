@@ -13,7 +13,7 @@ open class FontAwesomeLabel: UILabel, FontAwesomeAble {
 
     /// unicode string you can set through UIStoryboard or xib.
     @IBInspectable
-    public var unicode: String = "" {
+    open var unicode: String = "" {
         didSet {
             configFontAwesomeLabel()
         }
