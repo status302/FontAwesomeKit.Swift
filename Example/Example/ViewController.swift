@@ -11,19 +11,18 @@ import FontAwesomeKit_Swift
 
 class ViewController: UITableViewController {
     let types:[FontAwesomeType] = Types.types
-    let names = Types.typeNames
     let identifier = "typeCellIdentifier"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        let leftItem = UIBarButtonItem(awesomeType: .fa_windows, size: 24, style: .plain, target: nil, action: nil)
+        let leftItem = UIBarButtonItem(awesomeType: .windows, size: 24, style: .plain, target: nil, action: nil)
         self.navigationItem.leftBarButtonItem = leftItem
 
-        let rightItem = UIBarButtonItem(awesomeType: .fa_android, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
+        let rightItem = UIBarButtonItem(awesomeType: .android, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
         self.navigationItem.rightBarButtonItem = rightItem
-        self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .fa_apple, size: 10, textColor: UIColor.black))
+        self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .apple, size: 10, textColor: UIColor.black))
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -35,8 +34,8 @@ class ViewController: UITableViewController {
         return tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
     }
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.textLabel?.fa.text = types[indexPath.row]
-        cell.detailTextLabel?.text = names[indexPath.row]
+      let type = types[indexPath.row]
+      (cell as? TypeCell)?.faType = type
     }
     @objc func pushToFontAwesomeStoryboard() {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FontAwesomeStoryboard")
@@ -47,7 +46,34 @@ class ViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+}
 
 
+class TypeCell: UITableViewCell {
+
+  var faType: FontAwesomeType = .fa500px {
+    didSet {
+      label0.fa.text = faType
+      label0.fa.fontSize(35)
+      label1.fa.text = faType
+      label1.fa.fontSize(25)
+      label25.fa.text = faType
+      label25.fa.fontSize(15)
+      label15.fa.text = faType
+      label15.fa.fontSize(10)
+      label2.fa.text = faType
+      label2.fa.fontSize(60)
+      if let name = String(reflecting: faType).split(separator: ".").last {
+        label3.text = "." + name
+      }
+    }
+  }
+
+  @IBOutlet weak var label0: UILabel!
+  @IBOutlet weak var label1: UILabel!
+  @IBOutlet weak var label2: UILabel!
+  @IBOutlet weak var label3: UILabel!
+  @IBOutlet weak var label25: UILabel!
+  @IBOutlet weak var label15: UILabel!
 }
 
