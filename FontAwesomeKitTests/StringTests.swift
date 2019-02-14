@@ -22,7 +22,7 @@ class StringTests: XCTestCase {
     }
     
     func testFontAwesomeEqualable() {
-        let android = FontAwesomeType.fa_android
+        let android = FontAwesomeType.android
         let typeStr = String.fa.fontAwesome(android)
         let androidUnicode = String(format: "%C", 0xf17b)
         assert(typeStr == androidUnicode)

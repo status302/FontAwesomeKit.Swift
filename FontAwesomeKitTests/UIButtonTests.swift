@@ -14,7 +14,7 @@ import XCTest
 class UIButtonTests: XCTestCase {
     func testButtonTitle() {
         let button = UIButton()
-        button.fa.setTitle(.fa_apple, for: .normal)
+        button.fa.setTitle(.apple, for: .normal)
         XCTAssert((button.titleLabel?.text != nil), "button titleLabel should not be nil.")
     }
     

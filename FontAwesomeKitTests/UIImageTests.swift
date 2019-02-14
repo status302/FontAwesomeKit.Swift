@@ -22,7 +22,7 @@ class UIImageTests: XCTestCase {
     }
     
     func testFontAwesomeImage() {
-        let image = UIImage(awesomeType: .fa_500px, size: 20, textColor: UIColor.red)
+        let image = UIImage(awesomeType: .fa500px, size: 20, textColor: UIColor.red)
         assert(image != nil)
     }
 }
