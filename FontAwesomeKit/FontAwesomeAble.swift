@@ -6,11 +6,16 @@
 import UIKit
 
 @objc internal protocol FontAwesomeAble {
-    @objc optional var unicode: String { get set }
-    @objc optional var normalUnicode: String { get set }
-    @objc optional var highlightedUnicode: String { get set }
-    @objc optional var selectedUnicode: String { get set }
-    @objc optional var disabledUnicode: String { get set }
+    @objc
+    optional var unicode: String { get set }
+    @objc
+    optional var normalUnicode: String { get set }
+    @objc
+    optional var highlightedUnicode: String { get set }
+    @objc
+    optional var selectedUnicode: String { get set }
+    @objc
+    optional var disabledUnicode: String { get set }
 }
 
 extension FontAwesomeAble where Self: UILabel {
@@ -63,7 +68,7 @@ extension FontAwesomeAble where Self: UIButton {
         configFontAwesomeButtonWith(unicode: str, state: .normal)
     }
     
-    internal func configFontAwesomeButtonWith(unicode: String, state: UIControlState) {
+    internal func configFontAwesomeButtonWith(unicode: String, state: UIControl.State) {
         var str: String = unicode
         if str.hasPrefix("0x") {
             str = str.fa.substring(from: 2)

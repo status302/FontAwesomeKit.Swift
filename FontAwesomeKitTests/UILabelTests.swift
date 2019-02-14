@@ -20,6 +20,7 @@ class UILabelTests: XCTestCase {
     func testLabelText() {
         let label = UILabel()
         label.fa.text = .fa_android
+        XCTAssert(label.fa.text == .fa_android, "label fa text should be fa_android")
         XCTAssert((label.text != nil ), "Icon text should not be nil.")
     }
 }
