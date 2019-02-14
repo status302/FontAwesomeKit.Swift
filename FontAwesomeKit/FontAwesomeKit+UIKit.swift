@@ -107,17 +107,17 @@ public extension FontAwesomeKit where Base: UILabel {
     /// default is nil.
     /// default font size is '17.0'.
     ///
-    public var text: FontAwesomeType? {
+    public var text: FontAwesomeType {
         set {
             base.font = UIFont.fa?.fontSize(17.0)
             //UIFont(name: FontAwesomeCommon.kFontAwesome, size: 17.0)
-            base.text = newValue?.fa.cCharString
+            base.text = newValue.fa.cCharString
         }
         get {
             if let unichar = (base.text as NSString?)?.character(at: 0) {
-                return FontAwesomeType(rawValue: unichar)
+                return FontAwesomeType(rawValue: unichar) ?? .unknown
             } else {
-                return nil
+                return .unknown
             }
         }
     }
@@ -225,10 +225,10 @@ public extension UILabel {
     /// default font size is '17.0'.
     ///
     @available(*, deprecated, message: "UILabel's fa_setText is deprecated, use `fa.text` instead.", renamed: "fa.text")
-    public var fa_text: FontAwesomeType? {
+    public var fa_text: FontAwesomeType {
         set {
             self.font = UIFont(name: FontAwesomeCommon.kFontAwesome, size: 17.0)
-            self.text = newValue?.fa.cCharString
+            self.text = newValue.fa.cCharString
         }
         get {
             return self.fa.text
