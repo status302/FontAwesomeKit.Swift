@@ -17,15 +17,12 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        let leftItem = UIBarButtonItem(awesomeType: .windows, size: 24, style: .plain, target: nil, action: nil)
+        let leftItem = UIBarButtonItem(awesomeType: .windowClose, size: 24, style: .plain, target: nil, action: nil)
         self.navigationItem.leftBarButtonItem = leftItem
 
-        let rightItem = UIBarButtonItem(awesomeType: .android, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
+        let rightItem = UIBarButtonItem(awesomeType: .bandAid, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
         self.navigationItem.rightBarButtonItem = rightItem
-        self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .apple, size: 10, textColor: UIColor.black))
-        
-        let image = UIImage(awesomeType: .github, size: 30.0, textColor: .black)
-        
+        self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .appleAlt, size: 10, textColor: UIColor.black))
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -54,7 +51,7 @@ class ViewController: UITableViewController {
 
 class TypeCell: UITableViewCell {
 
-  var faType: FontAwesomeType = .fa500px {
+  var faType: FontAwesomeType = .plane {
     didSet {
       label0.fa.text = faType
       label0.fa.fontSize(35)

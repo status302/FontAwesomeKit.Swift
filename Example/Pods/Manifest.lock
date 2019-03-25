@@ -1,5 +1,5 @@
 PODS:
-  - FontAwesomeKit.Swift (1.0.0)
+  - FontAwesomeKit.Swift (1.0.1)
 
 DEPENDENCIES:
   - FontAwesomeKit.Swift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FontAwesomeKit.Swift: 39f3c77b644cfb39ad0b83243e8018093c97ff37
+  FontAwesomeKit.Swift: b574b7c1e68db7a3383c27aa588d75e6b17c1553
 
 PODFILE CHECKSUM: 12adc829a8156d0a2864c909c1ce67df808bbb41
 

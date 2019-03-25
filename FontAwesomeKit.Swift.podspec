@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/qiuncheng/FontAwesomeKit.Swift.git", :tag => s.version }
 
   s.source_files  = 'FontAwesomeKit/*.{swift, h}'
-  s.resource_bundle = { 'FontAwesomeKit.Swift' => 'FontAwesomeKit/*.otf' }
+  s.resource_bundle = { 'FontAwesomeKit.Swift' => 'FontAwesomeKit/*.ttf' }
   s.requires_arc = true
   s.frameworks = 'UIKit'
 

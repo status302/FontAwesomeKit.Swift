@@ -14,9 +14,9 @@ import XCTest
 class FontTests: XCTestCase {
     func testFont() {
         let font = UIFont.fa
-        assert(font?.base == UIFont(name: "FontAwesome", size: 17))
+        assert(font?.base == UIFont(name: "Font Awesome 5 Free", size: 17))
         /// another
         let newFont = font?.fontSize(20)
-        XCTAssertTrue(newFont == UIFont(name: "FontAwesome", size: 20))
+        XCTAssertTrue(newFont == UIFont(name: "Font Awesome 5 Free", size: 20))
     }
 }

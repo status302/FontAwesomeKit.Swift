@@ -43,7 +43,7 @@ public extension UIFont {
     public static var fa: FontAwesomeKit<UIFont>? {
         let name = FontAwesomeCommon.kFontAwesome
         if UIFont.fontNames(forFamilyName: name).isEmpty {
-            FontLoader.loadFont(name)
+            FontLoader.loadFont(FontAwesomeCommon.fileName)
         }
         if let font = UIFont(name: name, size: 17) {
             return FontAwesomeKit(font)
