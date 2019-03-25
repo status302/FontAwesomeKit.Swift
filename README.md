@@ -5,13 +5,13 @@ FontAwesomeKit.Swift
 [![](https://img.shields.io/cocoapods/v/FontAwesomeKit.Swift.svg)](https://cocoapods.org/pods/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/support-iOS8-lightgrey.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 [![](https://img.shields.io/badge/platform-iOS-yellow.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
-[![](https://img.shields.io/badge/Swift-3.0-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
+[![](https://img.shields.io/badge/Swift-4.2-yellowgreen.svg)](https://github.com/qiuncheng/FontAwesomeKit.Swift)
 
 ![FontAwesome.otf 4.7.0](https://raw.githubusercontent.com/qiuncheng/FontAwesomeKit.Swift/master/Screenshots/FontAwesomeKitExample.png)
 
 Support
 ========
-Swift 4.0 & iOS 8.0+   
+Swift 4.2 & iOS 8.0+   
 FontAwesome 4.7.0  
 Storyboard supported.
 
