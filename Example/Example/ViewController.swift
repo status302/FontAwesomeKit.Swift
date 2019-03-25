@@ -23,6 +23,9 @@ class ViewController: UITableViewController {
         let rightItem = UIBarButtonItem(awesomeType: .android, style: .plain, target: self, action: #selector(pushToFontAwesomeStoryboard))
         self.navigationItem.rightBarButtonItem = rightItem
         self.navigationItem.titleView = UIImageView(image: UIImage(awesomeType: .apple, size: 10, textColor: UIColor.black))
+        
+        let image = UIImage(awesomeType: .github, size: 30.0, textColor: .black)
+        
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1

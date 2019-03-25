@@ -24,7 +24,7 @@
 
 import Foundation
 
-public enum FontAwesomeType: unichar {
+public enum FontAwesomeType: unichar, CaseIterable {
     case unknown = 0x0000
     /// 4.7.0
     case addressBook = 0xf2b9
