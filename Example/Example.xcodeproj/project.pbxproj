@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F53F8AA224A270E00DA07BA /* FontAwesomeExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53F8A9224A270E00DA07BA /* FontAwesomeExampleCell.swift */; };
 		8606B3D41DB5DF6C00DE6D3E /* TypeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606B3D31DB5DF6C00DE6D3E /* TypeArray.swift */; };
 		867C53011DB29BF800BEB615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53001DB29BF800BEB615 /* AppDelegate.swift */; };
-		867C53031DB29BF800BEB615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53021DB29BF800BEB615 /* ViewController.swift */; };
+		867C53031DB29BF800BEB615 /* FontAwesomeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C53021DB29BF800BEB615 /* FontAwesomeExampleViewController.swift */; };
 		867C53061DB29BF800BEB615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867C53041DB29BF800BEB615 /* Main.storyboard */; };
 		867C53081DB29BF800BEB615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867C53071DB29BF800BEB615 /* Assets.xcassets */; };
 		867C530B1DB29BF800BEB615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867C53091DB29BF800BEB615 /* LaunchScreen.storyboard */; };
@@ -49,12 +50,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F53F8A9224A270E00DA07BA /* FontAwesomeExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeExampleCell.swift; sourceTree = "<group>"; };
 		770ED6C6D93FDB5C1F912575 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80EA4E41EE1803774E26FD18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		8606B3D31DB5DF6C00DE6D3E /* TypeArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeArray.swift; sourceTree = "<group>"; };
 		867C52FD1DB29BF800BEB615 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867C53001DB29BF800BEB615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		867C53021DB29BF800BEB615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		867C53021DB29BF800BEB615 /* FontAwesomeExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeExampleViewController.swift; sourceTree = "<group>"; };
 		867C53051DB29BF800BEB615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		867C53071DB29BF800BEB615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		867C530A1DB29BF800BEB615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,7 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				867C53001DB29BF800BEB615 /* AppDelegate.swift */,
-				867C53021DB29BF800BEB615 /* ViewController.swift */,
+				867C53021DB29BF800BEB615 /* FontAwesomeExampleViewController.swift */,
+				3F53F8A9224A270E00DA07BA /* FontAwesomeExampleCell.swift */,
 				8606B3D31DB5DF6C00DE6D3E /* TypeArray.swift */,
 				867C53041DB29BF800BEB615 /* Main.storyboard */,
 				867C53071DB29BF800BEB615 /* Assets.xcassets */,
@@ -348,8 +351,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8606B3D41DB5DF6C00DE6D3E /* TypeArray.swift in Sources */,
-				867C53031DB29BF800BEB615 /* ViewController.swift in Sources */,
+				867C53031DB29BF800BEB615 /* FontAwesomeExampleViewController.swift in Sources */,
 				867C53011DB29BF800BEB615 /* AppDelegate.swift in Sources */,
+				3F53F8AA224A270E00DA07BA /* FontAwesomeExampleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
