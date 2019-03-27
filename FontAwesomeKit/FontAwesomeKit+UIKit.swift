@@ -32,7 +32,7 @@ public extension FontAwesomeKit where Base: UIFont {
     /// - Parameter size: new size you want to set.
     /// - Returns: new `UIFont`.
     @discardableResult
-    public func fontSize(_ size: CGFloat) -> UIFont {
+    func fontSize(_ size: CGFloat) -> UIFont {
         return base.withSize(size)
     }
 }
@@ -40,7 +40,7 @@ public extension FontAwesomeKit where Base: UIFont {
 public extension UIFont {
     
     /// Create a new `UIFont` use `UIFont.fa`
-    public static var fa: FontAwesomeKit<UIFont>? {
+    static var fa: FontAwesomeKit<UIFont>? {
         let name = FontAwesomeCommon.kFontAwesome
         if UIFont.fontNames(forFamilyName: name).isEmpty {
             FontLoader.loadFont(name)
@@ -62,7 +62,7 @@ public extension UIImage {
     /// - parameter label: The label you gave
     ///
     /// - returns: The image you will get
-    public class func image(with label: UILabel?) -> UIImage? {
+    class func image(with label: UILabel?) -> UIImage? {
         guard let targetLabel = label else {
             return nil
         }
@@ -83,7 +83,7 @@ public extension UIImage {
     /// - parameter tintColor: The UIImage filled color you get, default is UIColor.lightGray.
     ///
     /// - returns: The image you will get, default size is (80, 80).
-    public convenience init?(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 80, textColor color: UIColor = UIColor.lightGray) {
+    convenience init?(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 80, textColor color: UIColor = UIColor.lightGray) {
 
         let imageLabel = UILabel()
         imageLabel.fa.text = type
@@ -107,7 +107,7 @@ public extension FontAwesomeKit where Base: UILabel {
     /// default is nil.
     /// default font size is '17.0'.
     ///
-    public var text: FontAwesomeType {
+    var text: FontAwesomeType {
         set {
             base.font = UIFont.fa?.fontSize(17.0)
             //UIFont(name: FontAwesomeCommon.kFontAwesome, size: 17.0)
@@ -125,7 +125,7 @@ public extension FontAwesomeKit where Base: UILabel {
     /// Change UILabel's fontSize. Default is `17.0`.
     ///
     /// - Parameter size: new size.
-    public func fontSize(_ size: CGFloat) {
+    func fontSize(_ size: CGFloat) {
         let newFont = base.font
         base.font = newFont?.fa.fontSize(size)
     }
@@ -138,7 +138,7 @@ public extension FontAwesomeKit where Base: UIButton {
     ///
     /// - parameter type:  The fontAwesome type, and you don't need to 'setImage' or 'setBackgroundImage'
     /// - parameter state: The state that uses the specified title. The possible values are described in UIControlState.
-    public func setTitle(_ type: FontAwesomeType, for state: UIControl.State) {
+    func setTitle(_ type: FontAwesomeType, for state: UIControl.State) {
         base.titleLabel?.font = UIFont.fa?.fontSize(28)
         base.setTitle(type.fa.cCharString, for: state)
     }
@@ -153,7 +153,7 @@ public extension UIBarButtonItem {
     /// - parameter action:   The action to send to target when this item is selected.
     ///
     /// - returns: Newly initialized item with fontAwesome icon.
-    public convenience init(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 24.0, style: UIBarButtonItem.Style, target: Any?, action: Selector?) {
+    convenience init(awesomeType type: FontAwesomeType, size fontSize: CGFloat = 24.0, style: UIBarButtonItem.Style, target: Any?, action: Selector?) {
         let barItemLabel = UILabel()
         barItemLabel.fa.text = type
         barItemLabel.font = UIFont.fa?.fontSize(fontSize)
@@ -173,7 +173,7 @@ public extension FontAwesomeKit where Base: UINavigationItem {
     /// - parameter type:      The fontAwesome type.
     /// - parameter fontSize:  The font size, default is '32.0'.
     /// - parameter tintColor: The fontAwesome Icon filled color, default is 'UIColor.darkGray'
-    public func setTitle(_ type: FontAwesomeType, size fontSize: CGFloat = 32.0, color tintColor: UIColor = UIColor.darkGray) {
+    func setTitle(_ type: FontAwesomeType, size fontSize: CGFloat = 32.0, color tintColor: UIColor = UIColor.darkGray) {
         let titleLabel = UILabel()
         titleLabel.fa.text = type
         titleLabel.font = UIFont.fa?.fontSize(fontSize)
@@ -191,7 +191,7 @@ public extension UIButton {
     /// - parameter type:  The fontAwesome type, and you don't need to 'setImage' or 'setBackgroundImage'
     /// - parameter state: The state that uses the specified title. The possible values are described in UIControlState.
     @available(*, deprecated, message: "UIButton's fa_setTitle is deprecated, use `fa.setTitle` instead.", renamed: "fa.setTitle(_:)")
-    public func fa_setTitle(_ type: FontAwesomeType, for state: UIControl.State) {
+    func fa_setTitle(_ type: FontAwesomeType, for state: UIControl.State) {
         self.titleLabel?.font = UIFont(fa_fontSize: 28)
         self.setTitle(type.fa.cCharString, for: state)
     }
@@ -225,7 +225,7 @@ public extension UILabel {
     /// default font size is '17.0'.
     ///
     @available(*, deprecated, message: "UILabel's fa_setText is deprecated, use `fa.text` instead.", renamed: "fa.text")
-    public var fa_text: FontAwesomeType {
+    var fa_text: FontAwesomeType {
         set {
             self.font = UIFont(name: FontAwesomeCommon.kFontAwesome, size: 17.0)
             self.text = newValue.fa.cCharString
@@ -244,7 +244,7 @@ public extension UINavigationItem {
     /// - parameter fontSize:  The font size, default is '32.0'.
     /// - parameter tintColor: The fontAwesome Icon filled color, default is 'UIColor.darkGray'
     @available(*, deprecated, message: "Deprecated now, use `fa.setTitle(_:)` instead.", renamed: "fa.setTitle(_:)")
-    public func fa_setTitle(_ type: FontAwesomeType, size fontSize: CGFloat = 32.0, color tintColor: UIColor = UIColor.darkGray) {
+    func fa_setTitle(_ type: FontAwesomeType, size fontSize: CGFloat = 32.0, color tintColor: UIColor = UIColor.darkGray) {
         let titleLabel = UILabel()
         titleLabel.fa.text = type
         titleLabel.font = UIFont.fa?.fontSize(fontSize)

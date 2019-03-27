@@ -14,7 +14,7 @@ public protocol FontAwesomeCompatiable {
 }
 
 public extension FontAwesomeCompatiable {
-    public var fa: FontAwesomeKit<Self> {
+    var fa: FontAwesomeKit<Self> {
         get { return FontAwesomeKit(self) }
     }
 }

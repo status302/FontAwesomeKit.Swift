@@ -12,7 +12,7 @@ extension FontAwesomeType: FontAwesomeCompatiable { }
 
 public extension FontAwesomeKit where Base == FontAwesomeType {
     /// Get `FontAwesomeType` cChar string.
-    public var cCharString: String {
+    var cCharString: String {
         return String(format: "%C", base.rawValue)
     }
 }
@@ -21,7 +21,7 @@ extension UniChar: FontAwesomeCompatiable { }
 
 public extension FontAwesomeKit where Base == UniChar {
     /// Get `UniChar` cChar string.
-    public var cCharString: String {
+    var cCharString: String {
         return String(format: "%C", base)
     }
 }

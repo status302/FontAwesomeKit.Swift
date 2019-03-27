@@ -26,7 +26,7 @@ public extension FontAwesomeKit where Base == String {
     ///
     /// - Parameter to: from index.
     /// - Returns: substring with special index.
-    public func substring(from: Int) -> String {
+    func substring(from: Int) -> String {
         let index = base.index(base.startIndex, offsetBy: from)
         return String(base[index ..< base.endIndex])
     }
@@ -35,7 +35,7 @@ public extension FontAwesomeKit where Base == String {
     ///
     /// - Parameter to: to index.
     /// - Returns: substring with special index.
-    public func substring(to: Int) -> String {
+    func substring(to: Int) -> String {
         let index = base.index(base.startIndex, offsetBy: to)
         return String(base[base.startIndex ..< index])
     }
@@ -47,7 +47,7 @@ public extension FontAwesomeKit where Base == String {
     /// - parameter type: The type you should give.
     ///
     /// - returns: The string icon you will get.
-    public func fontAwesome(_ type: FontAwesomeType) -> String {
+    func fontAwesome(_ type: FontAwesomeType) -> String {
         return type.fa.cCharString
     }
     
@@ -57,7 +57,7 @@ public extension FontAwesomeKit where Base == String {
     ///     icon unicode here : http://fontawesome.io/cheatsheet/
     ///
     /// - returns: The string icon you will get.
-    public func fontAwesome(undefined unicode: UniChar) -> String {
+    func fontAwesome(undefined unicode: UniChar) -> String {
         return unicode.fa.cCharString
     }
 }
@@ -69,7 +69,7 @@ public extension String {
     ///
     /// - returns: The string icon you will get.
     @available(*, deprecated, message: "Deprecated now, use `fa.fontAwesome(_:)` instead.", renamed: "fa.fontAwesome(_:)")
-    public static func fontAwesome(_ type: FontAwesomeType) -> String {
+    static func fontAwesome(_ type: FontAwesomeType) -> String {
         return type.fa.cCharString
     }
     
@@ -80,7 +80,7 @@ public extension String {
     ///
     /// - returns: The string icon you will get.
     @available(*, deprecated, message: "Deprecated now, use `fa.fontAwesome(undefined:)` instead.", renamed: "fa.fontAwesome(undefined:)")
-    public static func fontAwesome(undefined unicode: UniChar) -> String {
+    static func fontAwesome(undefined unicode: UniChar) -> String {
         return unicode.fa.cCharString
     }
 }
