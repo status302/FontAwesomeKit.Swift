@@ -139,7 +139,7 @@ public extension FontAwesomeKit where Base: UIButton {
     /// - parameter type:  The fontAwesome type, and you don't need to 'setImage' or 'setBackgroundImage'
     /// - parameter state: The state that uses the specified title. The possible values are described in UIControlState.
     func setTitle(_ type: FontAwesomeType, for state: UIControl.State) {
-//        base.titleLabel?.font = UIFont.fa?.fontSize(28)
+        base.titleLabel?.font = UIFont.fa?.fontSize(base.titleLabel?.font.pointSize ?? 28)
         base.setTitle(type.fa.cCharString, for: state)
     }
 }
